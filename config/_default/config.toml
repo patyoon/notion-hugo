@@ -1,5 +1,4 @@
 baseURL = "http://blog.patyoon.com/"
-languageCode = "en-us"
 canonifyurls = true
 defaultContentLanguage = "en-us"
 disqusShortname = "patrickyoon"
