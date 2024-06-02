@@ -1,4 +1,201 @@
 baseURL = "http://blog.patyoon.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "DoIt"
+canonifyurls = true
+defaultContentLanguage = "en-us"
+disqusShortname = "patrickyoon"
+enableRobotsTXT = true
+googleAnalytics = "UA-93060001-1"
+languageCode = "en-us"
+paginate = 7
+theme = "tranquilpeak"
+title = "Patrick Yeo Ho Yoon's Blog"
+[author]
+bio = "I'm a software engineer based in San Francisco with interests in tech, music, and all aspects of human life."
+email = "me@patyoon.com"
+github = "http://github.com/patyoon"
+job = "Software Developer"
+location = "San Francisco"
+name = "Patrick Yeo Ho Yoon"
+twitter = "patryoon"
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+[languages.en-us]
+languageName = "English"
+title = "Patrick Yeo Ho Yoon's Blog"
+weight = 1
+[[languages.en-us.menu.links]]
+identifier = "github"
+name = "GitHub"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
+url = "https://github.com/patyoon"
+weight = 1
+[[languages.en-us.menu.links]]
+identifier = "linkedin"
+name = ""
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
+url = "https://www.linkedin.com/in/patyoon"
+weight = 2
+[[languages.en-us.menu.links]]
+identifier = "soundcloud"
+name = ""
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
+url = "https://www.soundcloud.com/djscrapmetal"
+weight = 4
+[[languages.en-us.menu.links]]
+identifier = "RSS"
+name = ""
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+url = "/index.xml"
+weight = 5
+[[languages.en-us.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+[[languages.en-us.menu.main]]
+identifier = "now"
+name = "Now"
+url = "/page/now"
+weight = 2
+[[languages.en-us.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/post"
+weight = 3
+[[languages.en-us.menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/page/contact"
+weight = 4
+[[languages.en-us.menu.main]]
+identifier = "cv"
+name = "CV"
+url = "/files/cv.pdf"
+weight = 5
+[languages.ko]
+languageName = "한국어"
+title = "윤여호의 블로그"
+weight = 2
+[languages.ko.author]
+email = "me@patyoon.com"
+github = "http://github.com/patyoon"
+gravatarEmail = "me@patyoon.com"
+job = "소프트웨어 엔지니어"
+location = "샌프란시스코"
+name = "윤여호"
+[[languages.ko.menu.links]]
+identifier = "github"
+name = "GitHub"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
+url = "https://github.com/patyoon"
+weight = 1
+[[languages.ko.menu.links]]
+identifier = "linkedin"
+name = ""
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
+url = "https://www.linkedin.com/in/patyoon"
+weight = 2
+[[languages.ko.menu.links]]
+identifier = "soundcloud"
+name = ""
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
+url = "https://www.soundcloud.com/djscrapmetal"
+weight = 4
+[[languages.ko.menu.links]]
+identifier = "RSS"
+name = ""
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+url = "/index.xml"
+weight = 5
+[[languages.ko.menu.main]]
+identifier = "home"
+name = "홈"
+url = "/"
+weight = 1
+[[languages.ko.menu.main]]
+identifier = "blog"
+name = "블로그"
+url = "/post"
+weight = 2
+[[languages.ko.menu.main]]
+identifier = "cv"
+name = "이력"
+url = "https://patyoon.com/files/cv.pdf"
+weight = 3
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark.renderer]
+unsafe = true
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+[params]
+  autoThumbnailImage = true
+clearReading = true
+dateFormat = "January 2, 2006"
+description = "Patrick Yoon: Website"
+favicon = "/favicon.png"
+hierarchicalCategories = true
+imageGallery = true
+keywords = ["development", "personal-blog"]
+sidebarBehavior = 2
+syntaxHighlighter = "highlight.js"
+thumbnailImage = true
+thumbnailImagePosition = "right"
+numHomepagePreview = 5
+  # ---------------
+  # Sharing options
+  # ---------------
+  # Comment and uncomment to enable or disable sharing options
+  # If you wanna add a sharing option, read user documentation :
+  # Tranquilpeak configuration > Theme configuration > sharing-options
+  [[params.sharingOptions]]
+    name = "Facebook"
+    icon = "fa fa-facebook-square"
+    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+
+  [[params.sharingOptions]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    url = "https://twitter.com/intent/tweet?text=%s"
+
+[params.algolia]
+params = ["categories", "tags"]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+[params.footer]
+copyright = "Patrick Yoon. Built with <a href=\"https://gohugo.io/\">Hugo</a>.<br /><a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />"
+[params.sidebar.profile]
+url = "/page/about"
+[permalinks]
+post = "/:year/:month/:slug/"
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
