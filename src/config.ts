@@ -52,12 +52,14 @@ export async function loadConfig(): Promise<Config> {
     })) {
       if (!isFullBlock(block)) continue;
       if (block.type === "child_database") {
+        console.info(`[Info] Found child database ${block.child_database.title}`)
         config.mount.databases.push({
           database_id: block.id,
           target_folder: block.child_database.title,
         });
       }
       if (block.type === "child_page") {
+        console.info(`[Info] Found child page ${block.id}`)
         config.mount.pages.push({
           page_id: block.id,
           target_folder: ".",
