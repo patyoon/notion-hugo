@@ -3,7 +3,6 @@ canonifyurls = true
 defaultContentLanguage = "en-us"
 disqusShortname = "patrickyoon"
 enableRobotsTXT = true
-googleAnalytics = "UA-93060001-1"
 languageCode = "en-us"
 paginate = 7
 theme = "tranquilpeak"
