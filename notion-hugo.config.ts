@@ -1,4 +1,4 @@
-import { UserConfig } from "./src/config"
+import { UserConfig } from "./src/config";
 
 const userConfig: UserConfig = {
     mount: {
