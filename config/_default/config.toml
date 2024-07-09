@@ -1,4 +1,4 @@
-baseURL = "http://blog.patyoon.com/"
+baseURL = "https://blog.patyoon.com/"
 canonifyurls = true
 defaultContentLanguage = "en-us"
 disqusShortname = "patrickyoon"
@@ -10,7 +10,7 @@ title = "Patrick Yeo Ho Yoon's Blog"
 [author]
 bio = "I'm a software engineer based in San Francisco, and here I write about lessons I have learned and things that I deeply care about."
 email = "me@patyoon.com"
-github = "http://github.com/patyoon"
+github = "https://github.com/patyoon"
 job = "Software Developer"
 location = "San Francisco"
 name = "Patrick Yeo Ho Yoon"
@@ -77,7 +77,7 @@ title = "윤여호의 블로그"
 weight = 2
 [languages.ko.author]
 email = "me@patyoon.com"
-github = "http://github.com/patyoon"
+github = "https://github.com/patyoon"
 gravatarEmail = "me@patyoon.com"
 job = "소프트웨어 엔지니어"
 location = "샌프란시스코"
@@ -166,7 +166,7 @@ numHomepagePreview = 5
 params = ["categories", "tags"]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 [params.footer]
-copyright = "Patrick Yoon. Built with <a href=\"https://gohugo.io/\">Hugo</a>.<br /><a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />"
+copyright = "Patrick Yoon. Built with <a href=\"https://gohugo.io/\">Hugo</a>.<br /><a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />"
 [params.sidebar.profile]
 url = "/page/about"
 [permalinks]
