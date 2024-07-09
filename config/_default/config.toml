@@ -8,7 +8,7 @@ paginate = 7
 theme = "tranquilpeak"
 title = "Patrick Yeo Ho Yoon's Blog"
 [author]
-bio = "I'm a software engineer based in San Francisco with interests in tech, music, and all aspects of human life."
+bio = "I'm a software engineer based in San Francisco, and here I write about lessons I have learned and things that I deeply care about."
 email = "me@patyoon.com"
 github = "http://github.com/patyoon"
 job = "Software Developer"
