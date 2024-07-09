@@ -41,7 +41,8 @@ Ongoing update of what I am up to now.
 
 * March: A road trip to ski in the Rocky Mountains - Jackson Hole, Big Sky, and Aspen.
 
-![](/IMG_6481.jpg "About to sweat off to hike the Highland bowl. The run of 2022")
+{{< figure src="/uploads/IMG_6481.jpg" title="About to sweat off to hike the Highland bowl. The run of 2022" >}}
+
 
 * April: Visited the eastern part of Canada, Toronto, and Montreal.
 * May - June: Walked the entire [Camino Frances of Camino de Santiago](/tags/camino-de-santiago/).
