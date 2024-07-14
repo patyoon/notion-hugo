@@ -7,11 +7,38 @@ comments: true
 showMeta: false
 ---
 
-Ongoing update of what I am up to now.
+Ongoing update of what I am up to Now [[the Now Page Movement](https://sive.rs/nowff)).
 
-## March 7th, 2023
+***
 
-* I hit one year mark at WeaveGrid.
+## April 15th, 2024
+
+### Work
+
+I am past my first anniversary at WeaveGrid now. It has been a wild ride, jumping between being a full-stack engineer working on dashboards and the driver UI, to improving a complex state machine for charging schedules, data, and reporting. This year, I have focused more on onboarding new vehicle and smart charger OEM partners across time zones, which have fully turned me into a morning person.
+- I am trying to be more intentional about carving out time for things I want to excel at (including writing essays on this blog). This means simplifying other parts of my life, so I put a pause on my work as a DJ scrapmetal. Over two years, we hosted four friends-and-family events, four paid gigs, and played several small house parties and Burning Man fundraisers. It taught me the craft of curating a musical journey for the audience and the intricacies of rallying a crowd and constant marketing efforts. I still don't get the marketing part; it feels unnatural to me, but regardless, our show was always a sell-out. I appreciate everyone who came out to support us and danced the night away.
+
+### Not Work
+
+- I had a one-month spell of not working out at all in October, which might be the longest stretch since I turned 30. I broke my shoulder bone from a fall, but don't ask me why; I'll only tell you in person. But as soon as the doctor told me I could run again, I ran (plus walked) the Golden Gate Bridge half-marathon. Lesson learned: Don't do that. The day after I finished the half, I signed up for the full San Francisco Marathon to make up for this mishap.
+- I hosted a fancy birthday party in December and invited everyone I made memories with and appreciated spending time with in 2023. It was a good excuse to bring people together in the era of remote work and no more holiday parties, wrapping up the year and my early 30s on a high note.
+- I brought my entire family to Spain for the first time over the holidays and New Year's. I shared everything I love about Spain with them, and the country welcomed us with charming Mediterranean sun, pretty street lights, jamon, vermouth, and Hala Madrid.
+- On the same trip, I visited my French Camino friends in Toulouse and Lyon. We enjoyed delicious home-cooked meals, shared our post-Camino adventures, and reminisced over photos and memories from the Camino.
+- Ski season was another great year of heavy snowfall, especially towards the end of the season in March and April. Worst memory: getting stuck on I80 and skiing for only one day, spending less time in Tahoe than driving up. Best memories: pulling off a grueling solo drive to Tahoe after seeing James Hype and surprising Bowen on the slopes for his birthday, cabin time, and getting to know friends deeply during après-first/ski-second trips, the Grand Montets, and the Nordic spa in Alyeska.
+
+## October 7th, 2023
+
+### Work
+
+- I have been working on the Managed Charge Team at WeaveGrid, responsible for developing products that optimize EV drivers' charging schedules based on utility rates, real-time signals from wholesale prices, weather for renewable energy, and more. It has been a fun ride learning about issues in the automotive and utility sectors, understanding gaps in today's grid, EV penetration, and the increase of renewable energy. To learn more about the problem we are solving, listen to this [MCJ Podcast](https://www.mcjcollective.com/my-climate-journey-podcast/weavegrid) by our CEO, Apoorv.
+- Organized another club party at the Foundry (dubbed Portola Preparty) and played an hour set mixing garage, drum and bass, with a little spice of dubstep. Joseph, Ayush and I then went on at the end and played tech house b2b2b. The dance floor was almost empty, but it was the most adrenaline I have felt in a while.
+
+### Not Work
+
+- In May, I traveled to Jeju Island to attend my friend's wedding. In addition to giving a toast, I DJ'ed at the afterparty for three hours straight and had a great time traveling to Jeju with the friends and guests from the wedding. My favorites were all the delicious Jeju foods, the bike rides around rolling hills in U-Do, and the hot bul-gama experience in solidarity.
+- After seven years of absence, I finally returned to the playa, the Home, and the Muddy Man. This year, I decided to apply to be a Black Rock Ranger, went through training at the Burning Man HQ in SF, and passed the alpha shift—a test to determine if you have the qualities of a ranger. I worked three six-hour shifts and served as Burn perimeter at this Burn. I plan to write about this experience in more detail, but in general, I learned a lot about handling situations non-confrontationally and being less nervous about making radio calls (taking notes and writing down what you want to say is key).
+- I finally brought my best friends, whom I have been raving to about Burning Man for years, to the Burn. We made many fond memories over Swedish meatballs, TJ galbi, speakeasy bars, foamy showers, and more.
+- I joined a running club in SF founded by my friend Nate and started running in August. I had been avoiding running with all the excuses I made about my bad knees and slow pace. It is still the hardest workout in terms of BPM, but I have been getting the hang of it and ran my first 10k in the San Jose Rock-And-Roll.
 
 ## April 1st, 2023
 
@@ -25,9 +52,9 @@ Ongoing update of what I am up to now.
 * A subsequent trip in late March took me back to Seoul and to Kyoto, where I was captivated by the romantic vistas of cherry blossoms blooming across both Korea and Japan.
 * I skipped getting a ski season pass for the first time in six years to make time to do other stuff. The missing ski leg hit me hard at the WeaveGrid ski trip as everyone on the trip was both fantastic and intense skiers. The level of ski talent at this company is higher than anywhere I have seen.
 
-### Side Projects
+### DJ
 
-* Although starting a new job has taken up most of my time, I've managed to showcase my sets at three different venues: [The Foundry](https://www.thefoundrysf.com/ "The Foundry"), [Le Petit Paris](https://lppsf.com/ "Le Petit Paris"), and a Burning Man camp fundraiser. With other crews playing the genre of melodic house and techno, I try to blend in a more funky and soulful sound and even some remix of top 40 songs to add some variety. You can listen to my sets on [SoundCloud](https://soundcloud.com/djscrapmetal).
+Although starting a new job has taken up most of my time, I've managed to showcase my DJ sets at three different venues: [The Foundry](https://www.thefoundrysf.com/ "The Foundry"), [Le Petit Paris](https://lppsf.com/ "Le Petit Paris"), and a Burning Man camp fundraiser. With other crews playing the genre of melodic house and techno, I try to blend in a more funky and soulful sound and even some remix of top 40 songs to add some variety. You can listen to my sets on [SoundCloud](https://soundcloud.com/djscrapmetal).
 
 ***
 

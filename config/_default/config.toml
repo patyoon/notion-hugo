@@ -8,7 +8,7 @@ paginate = 7
 theme = "tranquilpeak"
 title = "Patrick Yeo Ho Yoon's Blog"
 [author]
-bio = "I'm a software engineer based in San Francisco, and here I write about lessons I have learned and things that I deeply care about."
+bio = "I'm a software engineer based in San Francisco, and here I write about lessons I have learned and stuffs that I deeply care about."
 email = "me@patyoon.com"
 github = "https://github.com/patyoon"
 job = "Software Developer"
@@ -25,27 +25,39 @@ weight = 1
 [[languages.en-us.menu.links]]
 identifier = "github"
 name = "GitHub"
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fa-brands fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
 url = "https://github.com/patyoon"
 weight = 1
 [[languages.en-us.menu.links]]
 identifier = "linkedin"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fa-brands fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
 url = "https://www.linkedin.com/in/patyoon"
 weight = 2
 [[languages.en-us.menu.links]]
 identifier = "soundcloud"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fa-brands fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
 url = "https://www.soundcloud.com/djscrapmetal"
-weight = 4
+weight = 3
 [[languages.en-us.menu.links]]
 identifier = "RSS"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fa-solid fa-rss\" aria-hidden=\"true\"></i>"
 url = "/index.xml"
+weight = 4
+[[languages.en-us.menu.links]]
+identifier = "strava"
+name = ""
+pre = "<i class=\"sidebar-button-icon fa-brands fa-strava\" aria-hidden=\"true\"></i>"
+url = "https://www.strava.com/athletes/36130089"
 weight = 5
+[[languages.en-us.menu.links]]
+identifier = "instagram"
+name = ""
+pre = "<i class=\"sidebar-button-icon fa-brands fa-instagram\" aria-hidden=\"true\"></i>"
+url = "https://www.instagram.com/patyoon"
+weight = 6
 [[languages.en-us.menu.main]]
 identifier = "home"
 name = "Home"
@@ -85,25 +97,25 @@ name = "윤여호"
 [[languages.ko.menu.links]]
 identifier = "github"
 name = "GitHub"
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fa-brands fa-lg fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
 url = "https://github.com/patyoon"
 weight = 1
 [[languages.ko.menu.links]]
 identifier = "linkedin"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fa-brands fa-lg fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
 url = "https://www.linkedin.com/in/patyoon"
 weight = 2
 [[languages.ko.menu.links]]
 identifier = "soundcloud"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fa-brands fa-lg fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
 url = "https://www.soundcloud.com/djscrapmetal"
 weight = 4
 [[languages.ko.menu.links]]
 identifier = "RSS"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fa-brands fa-lg fa-rss\" aria-hidden=\"true\"></i>"
 url = "/index.xml"
 weight = 5
 [[languages.ko.menu.main]]
@@ -154,12 +166,12 @@ numHomepagePreview = 5
   # Tranquilpeak configuration > Theme configuration > sharing-options
   [[params.sharingOptions]]
     name = "Facebook"
-    icon = "fa fa-facebook-square"
+    icon = "fa-brands fa-facebook-square"
     url = "https://www.facebook.com/sharer/sharer.php?u=%s"
 
   [[params.sharingOptions]]
     name = "Twitter"
-    icon = "fa fa-twitter"
+    icon = "fa-brands fa-twitter"
     url = "https://twitter.com/intent/tweet?text=%s"
 
 [params.algolia]
