@@ -13,9 +13,7 @@ title = "Why I write"
 
 If asked what I would do if money wasn't a concern, my answer would have varied at different points in my life. At times, I might have said traveling the world, becoming an off-piste mountain guide, or being the DJ who can tear up the dance floor. Each dream reflects a unique phase of my life, and each one has been a burning passion for me.
 
-When I want something, I pursue it. My determination is strong, and I've dedicated significant time and energy to my goals. The confidence and grit I've gained from this will remain with me forever.
-
-However, pouring so much energy into one thing can cause other areas of life to be overlooked. For me, it was understanding what makes me human. I learned to be brave, compassionate, and real. I began to recognize my strengths, confront my insecurities, and most importantly, started to love myself. I've made progress in reshaping the narrative I tell myself about who I am.
+However, pouring so much energy into one thing can cause other areas of life to be overlooked. For me, it was understanding what makes me human. I learned to be brave, compassionate, and honest. I began to recognize my strengths, confront my insecurities, and most importantly, started to love myself. I've made progress in reshaping the narrative I tell myself about who I am.
 
 You might wonder why I'm sharing all of this in relation to my decision to write again. Five years ago, I had the idea to share my writing. I was passionate about it and even built this website, but for years, I struggled to put my work out there. I feared judgment, upsetting people, and doubted my writing skills.
 
