@@ -126,6 +126,10 @@ In addition to frontmatters from the theme, I added new frontmatters:
 - draft: A post created as draft won't be generated.
 - private: A post created as private will be generated but won't be indexed or show up on the list of posts. It can be only accessed via it's URL.
 
+### Subscription form
+
+For subscription form I am using [beehiiv](https://www.beehiiv.com/) and the iframe submission form is embedded on the website.
+
 ## Deployment
 
 ### Cloudinary CDN
