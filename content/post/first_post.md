@@ -6,7 +6,7 @@ categories:
 tags:
 - blogging
 autoThumbnailImage: true
-coverImage: images/hero_image.jpg
+coverImage: uploads/hero_image.jpg
 coverCaption: Burning Man 2016
 comments: true
 draft: true
