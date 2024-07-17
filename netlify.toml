@@ -29,3 +29,6 @@ command = "git submodule update --force --init --recursive --depth=1 && npm inst
   [plugins.inputs]
   cloudName = "dalfipdrf"
   imagesPath = "/uploads"
+
+[functions]
+  node_bundler = "esbuild"

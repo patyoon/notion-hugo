@@ -28,12 +28,14 @@
   ],
   "author": "HEIGE-PCloud",
   "dependencies": {
+    "@netlify/functions": "^2.8.1",
     "@notionhq/client": "^2.2.15",
     "@pclouddev/notion-to-markdown": "^2.7.17",
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "front-matter": "^4.0.2",
     "fs-extra": "^11.2.0",
+    "node-fetch": "^3.3.2",
     "yaml": "^2.4.5"
   },
   "devDependencies": {
