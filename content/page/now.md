@@ -42,13 +42,15 @@ Ongoing update of what I am up to Now ([the Now Page Movement](https://sive.rs/n
 
 {{< youtube_shorts "https://www.youtube.com/embed/HWWMzZ7nB0A" >}}
 
-- After seven years of absence, I finally returned to the playa, the Home, and the Muddy Man. This year, I decided to apply to be a Black Rock Ranger, went through training at the Burning Man HQ in SF, and passed the alpha shift—a test to determine if you have the qualities of a ranger. I worked three six-hour shifts and served as Burn perimeter at this Burn. I plan to write about this experience in more detail, but in general, I learned a lot about handling situations non-confrontationally and being less nervous about making radio calls (taking notes and writing down what you want to say is key).
-{{< image classes="fancybox clear fig-75" src="/uploads/burn_perimeter.JPG" title="Burn Perimeter Squad 1" group="2">}}
+- After seven years of absence, I finally returned to the playa, the Home, and the Muddy Man. This year, I applied to be a [Black Rock Ranger](https://burningman.org/event/participate/volunteering/teams/brc-rangers/), burners who volunteer their time during the event in the role of non-confrontational community mediators. I went through in-person training at the Burning Man HQ in SF, and passed the alpha shift—a test to determine if you have the qualities of a ranger, worked three six-hour shifts, and served as Burn perimeter who ensures the safety during the Man Burn. I plan to write about this experience in more detail, but in short, I learned a lot about handling nuanced situations non-confrontationally and being able to confidently and concisely make radio calls (taking notes and writing down what you want to say is the key).
+
+{{< image classes="fancybox clear fig-75" src="/uploads/burn_perimeter.JPG" title="Burn Perimeter Quad 1" group="2">}}
+
 - I finally brought my best friends, whom I have been raving to about Burning Man for years, to the Black Rock City. We made many beautiful memories over Swedish meatballs, TJ galbi, speakeasy bars, foamy showers, and more.
 {{< image classes="fancybox clear fig-75" src="/uploads/IMG_9601 2.JPG" group="2">}}
 {{< image classes="fancybox clear fig-75" src="/uploads/IMG_2406 Large.jpeg" group="2">}}
 
-- I joined the running club in SF founded by my friend Nate and started running in August. I had been avoiding running with all the excuses I made about my bad knees and slow pace. It is still the hardest workout in terms of BPM, but I have been getting the hang of it and ran my first 10k in the San Jose Rock-And-Roll.
+- I joined the running club in SF founded by my friend Nate and started running in August. I had been avoiding running with all the excuses I made about my bad knees and slow pace, but so far have been enjoying it with no issues. It is still the hardest workout in terms of BPM, but I have been getting the hang of it and ran my first 10k in the San Jose Rock-And-Roll.
 
 
 

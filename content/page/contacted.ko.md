@@ -14,4 +14,4 @@ showActions: false
 
 이메일을 보냈습니다. 연락주셔서 감사합니다.
 
-자 이제 가셔서 제 [블로그](/https://www.patyoon.com/post/)를 읽어보시지요.
+자 이제 가셔서 제 [글](/https://www.patyoon.com/post/)을 읽어보시지요.
