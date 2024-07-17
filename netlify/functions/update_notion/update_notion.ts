@@ -1,15 +1,15 @@
 import { schedule } from "@netlify/functions";
-import fetch from "node-fetch";
 
 const BUILD_HOOK =
   "https://api.netlify.com/build_hooks/6697e1f83d3ccfe52de21890";
 
-const handler = schedule("0 * * * *", async () => {
+// To learn about scheduled functions and supported cron extensions,
+// see: https://ntl.fyi/sched-func
+export const handler = schedule("@hourly", async () => {
   try {
     const response = await fetch(BUILD_HOOK, {
       method: "POST",
     });
-
     console.log("Build hook response:", response);
 
     return {
@@ -24,5 +24,3 @@ const handler = schedule("0 * * * *", async () => {
     };
   }
 });
-
-export { handler };
