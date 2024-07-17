@@ -7,7 +7,7 @@ import path from "path";
 import YAML from "yaml";
 import { DatabaseMount, PageMount } from "./config";
 import { getContentFile } from "./file";
-import { getCoverLink, getFileName, getPageTitle } from "./helpers";
+import { getFileName, getPageTitle } from "./helpers";
 import { sh } from "./sh";
 
 function getExpiryTime(
@@ -57,22 +57,6 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
     lastmod: page.last_edited_time,
     draft: false,
   };
-
-  // set featuredImage
-  const featuredImageLink = await getCoverLink(page.id, notion);
-  if (featuredImageLink) {
-    const { link, expiry_time } = featuredImageLink;
-    frontMatter.coverImage = link;
-    // update nearest_expiry_time
-    if (expiry_time) {
-      if (nearest_expiry_time) {
-        nearest_expiry_time =
-          expiry_time < nearest_expiry_time ? expiry_time : nearest_expiry_time;
-      } else {
-        nearest_expiry_time = expiry_time;
-      }
-    }
-  }
 
   // map page properties to front matter
   for (const property in page.properties) {
