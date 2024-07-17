@@ -3,7 +3,7 @@ title = "Day 6, 7: Estella to Logroño 21.6km / 27.6km"
 description = ""
 date = 2023-11-04T07:00:00Z
 preview = "I walked to an ancient Roman town of Los Arcos, and reached the end of final stage of the French Camino"
-draft = false
+draft = true
 coverImage = "/uploads/IMG_7755.jpg"
 coverCaption = "red, green, and blue"
 tags = ["camino de santiago"]
@@ -19,9 +19,7 @@ When I woke up, everyone had already left the room. I chose to sleep in because 
 
 I began my walk alone, and shortly after leaving the city, I came across a blacksmith’s shop. I regretted not buying the hand-forged shell necklace there, as I couldn't find anything better later. I also found the famous wine fountain of Irache. Legend says that the "blessed" wine fountain from Monasterio de Irache was created to motivate weary pilgrims. It was early, before breakfast, but I pressed on as soon as I filled my bottles (two, not just one) with wine.
 
-{{< image classes="fancybox clear fig-75" src="/uploads/IMG_7747.jpg" title="" group="irache">}}
-{{< image classes="fancybox clear fig-75" src="/uploads/IMG_7749.jpg" title="" group="irache">}}
-
+{{< image classes="fancybox clear fig-75" src="/uploads/IMG_7747.jpg" title="The wine fountain of Irache" group="1">}}
 
 I started walking with a German guy who happened to have name Patrick. He shared that he decided to walk on the Camino because he'd never taken risks and wanted this to be his first. Both of us had some physical discomforts (I had issues with my knees, and he had trouble with his feet), and the wine had loosened us up. As a result, we could keep pace with each other for a while.
 

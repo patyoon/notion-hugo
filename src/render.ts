@@ -2,6 +2,7 @@ import { Client, isFullUser, iteratePaginatedAPI } from "@notionhq/client";
 import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import { NotionToMarkdown } from "@pclouddev/notion-to-markdown";
 import { MdBlock } from "@pclouddev/notion-to-markdown/build/types";
+import axios from "axios";
 import fs from "fs-extra";
 import path from "path";
 import YAML from "yaml";
@@ -34,6 +35,31 @@ function getExpiryTime(
   return expiry_time;
 }
 
+// Function to download an image
+async function downloadImage(url: string, filepath: string): Promise<void> {
+  const response = await axios({
+    url,
+    method: "GET",
+    responseType: "stream",
+  });
+
+  return new Promise((resolve, reject) => {
+    const writer = fs.createWriteStream(filepath);
+    response.data.pipe(writer);
+    let error: Error | null = null;
+    writer.on("error", (err) => {
+      error = err;
+      writer.close();
+      reject(err);
+    });
+    writer.on("close", () => {
+      if (!error) {
+        resolve();
+      }
+    });
+  });
+}
+
 export async function renderPage(page: PageObjectResponse, notion: Client) {
   // load formatter config
   const n2m = new NotionToMarkdown({ notionClient: notion });
@@ -62,15 +88,26 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
   const featuredImageLink = await getCoverLink(page.id, notion);
   if (featuredImageLink) {
     const { link, expiry_time } = featuredImageLink;
-    frontMatter.coverImage = link;
-    // update nearest_expiry_time
-    if (expiry_time) {
-      if (nearest_expiry_time) {
-        nearest_expiry_time =
-          expiry_time < nearest_expiry_time ? expiry_time : nearest_expiry_time;
-      } else {
-        nearest_expiry_time = expiry_time;
+    const imageName = path.basename(link);
+    const imagePath = path.join("uploads", imageName); // Adjust the directory as needed
+
+    try {
+      await downloadImage(link, imagePath);
+      frontMatter.coverImage = `./${imagePath}`;
+
+      // Update nearest_expiry_time
+      if (expiry_time) {
+        if (nearest_expiry_time) {
+          nearest_expiry_time =
+            expiry_time < nearest_expiry_time
+              ? expiry_time
+              : nearest_expiry_time;
+        } else {
+          nearest_expiry_time = expiry_time;
+        }
       }
+    } catch (error) {
+      console.error("Error downloading the image:", error);
     }
   }
 
