@@ -3,7 +3,7 @@
   {{ with .Err }}
     {{ errorf "Failed to download image %s" . }}
   {{ else }}
-    {{ image classes="fancybox clear fig-75" src="{{ .RelPermalink }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} group="1" }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} style="width: auto;height: auto;">
   {{ end }}
 {{ else }}
   {{ errorf "Invalid image url %q" $url }}
