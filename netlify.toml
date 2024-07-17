@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && && hugo --gc --minify && rm -rf /opt/build/cache"
+command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && hugo --gc --minify && rm -rf /opt/build/cache"
 
 [context.production.environment]
 HUGO_VERSION = "0.128.2"
@@ -8,14 +8,14 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && && hugo --gc --minify --enableGitInfo && rm -rf /opt/build/cache"
+command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && hugo --gc --minify --enableGitInfo && rm -rf /opt/build/cache"
 
 [context.split1.environment]
 HUGO_VERSION = "0.128.2"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && && hugo --gc --minify -b $DEPLOY_PRIME_URL && rm -rf /opt/build/cache"
+command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && hugo --gc --minify -b $DEPLOY_PRIME_URL && rm -rf /opt/build/cache"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.128.2"

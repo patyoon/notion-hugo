@@ -1,4 +1,4 @@
-baseURL = "https://blog.patyoon.com/"
+baseURL = "https://patyoon.com/"
 canonifyurls = true
 defaultContentLanguage = "en-us"
 disqusShortname = "patrickyoon"
