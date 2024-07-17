@@ -1,0 +1,54 @@
+[build]
+publish = "public"
+command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && && hugo --gc --minify && rm -rf /opt/build/cache"
+
+[context.production.environment]
+HUGO_VERSION = "0.128.2"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && && hugo --gc --minify --enableGitInfo && rm -rf /opt/build/cache"
+
+[context.split1.environment]
+HUGO_VERSION = "0.128.2"
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && && hugo --gc --minify -b $DEPLOY_PRIME_URL && rm -rf /opt/build/cache"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.128.2"
+
+[context.branch-deploy]
+command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && hugo --gc --minify -b $DEPLOY_PRIME_URL && rm -rf /opt/build/cache"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.128.2"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = ""
+    Content-Security-Policy-Report-Only = "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://patyoon.report-uri.com/r/d/csp/wizard"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+	# Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Permissions-Policy =  "vibrate=(), geolocation=(), midi=(), notifications=(), push=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(), vibrate=(), fullscreen=(), payment=()"
+
+[[redirects]]
+	from = "/*"
+	to = "/404/"
+	status = 404
+
+[[plugins]]
+  package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "dalfipdrf"
+  imagesPath = "/uploads"
