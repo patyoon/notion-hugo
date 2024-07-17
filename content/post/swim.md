@@ -6,7 +6,7 @@ coverCaption = "At the finish line of Golden Gate swim in 2018"
 coverImage = "/uploads/img_4444_original_fotor.jpg"
 date = 2022-09-17T15:00:00.000Z
 private = false
-tags = [ ]
+tags = ["open water swimming"]
 title = "Swimming across San Francisco Bay"
 slug = "swimming-san-francisco-bay"
 +++
