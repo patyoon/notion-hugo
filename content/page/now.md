@@ -21,10 +21,12 @@ Ongoing update of what I am up to Now ([the Now Page Movement](https://sive.rs/n
 ### Not Work
 
 - I had a one-month streak of not working out at all in October, which might be the longest stretch since I turned 30. I broke my shoulder bone from a fall, but don't ask me why; I'll only tell you in person. But as soon as the doctor told me I could run again, I ran (and walked) the Golden Gate Bridge half-marathon. Lesson learned: Don't run a half-marathon with no prep. The day after I finished the half, I signed up for the full San Francisco Marathon to make up for this mishap.
-- I hosted an extravagant birthday party in December and invited everyone I made happy memories with and appreciated spending time with in 2023. It was a good excuse to bring people together in the era of remote work and no more holiday parties and wrapping up the year and my early 30s on a high note.
+- I hosted an extravagant birthday party in December and invited everyone I made happy memories with and appreciated spending time with in 2023. It was a good excuse to bring people together in the era of remote work and no more holiday parties and wrap up the year and my early 30s on a high note.
 - I brought my family to Spain for the first time over the holidays and New Year's. I shared everything I love about Spain with them, and holiday festivities there welcomed us with charming Mediterranean sun, pretty street lights, jamon, vermouth, and Hala Madrid.
 - On the same trip, I visited my French Camino friends in Toulouse and Lyon. We enjoyed delicious home-cooked meals, shared our post-Camino adventures, and reminisced over photos and memories from the Camino.
 - Ski season was another great year of heavy snowfall, especially towards the end of the season in March and April. Worst memory: getting stuck on I80 and skiing for only one day, spending less time in Tahoe than driving up. Best memories: pulling off a grueling solo drive to Tahoe after seeing James Hype and surprising Bowen on the slopes for his birthday, late night chatters  during après-first/ski-second trips, off-piste day at the Grand Montets, and cold plunge at the Nordic spa in Alyeska.
+
+***
 
 ## October 7th, 2023
 
@@ -52,7 +54,7 @@ Ongoing update of what I am up to Now ([the Now Page Movement](https://sive.rs/n
 
 - I joined the running club in SF founded by my friend Nate and started running in August. I had been avoiding running with all the excuses I made about my bad knees and slow pace, but so far have been enjoying it with no issues. It is still the hardest workout in terms of BPM, but I have been getting the hang of it and ran my first 10k in the San Jose Rock-And-Roll.
 
-
+***
 
 ## April 1st, 2023
 
