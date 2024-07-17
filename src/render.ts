@@ -1,20 +1,14 @@
-import fs from "fs-extra";
-import {
-  Client,
-  isFullUser,
-  iteratePaginatedAPI,
-} from "@notionhq/client";
-import {
-  PageObjectResponse,
-} from "@notionhq/client/build/src/api-endpoints";
+import { Client, isFullUser, iteratePaginatedAPI } from "@notionhq/client";
+import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import { NotionToMarkdown } from "@pclouddev/notion-to-markdown";
-import YAML from "yaml";
-import { sh } from "./sh";
-import { DatabaseMount, PageMount } from "./config";
-import { getPageTitle, getCoverLink, getFileName } from "./helpers";
 import { MdBlock } from "@pclouddev/notion-to-markdown/build/types";
+import fs from "fs-extra";
 import path from "path";
+import YAML from "yaml";
+import { DatabaseMount, PageMount } from "./config";
 import { getContentFile } from "./file";
+import { getCoverLink, getFileName, getPageTitle } from "./helpers";
+import { sh } from "./sh";
 
 function getExpiryTime(
   blocks: MdBlock[],
@@ -68,7 +62,7 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
   const featuredImageLink = await getCoverLink(page.id, notion);
   if (featuredImageLink) {
     const { link, expiry_time } = featuredImageLink;
-    frontMatter.featuredImage = link;
+    frontMatter.coverImage = link;
     // update nearest_expiry_time
     if (expiry_time) {
       if (nearest_expiry_time) {

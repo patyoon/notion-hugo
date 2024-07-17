@@ -9,7 +9,7 @@ autoThumbnailImage: true
 coverImage: uploads/hero_image.jpg
 coverCaption: Burning Man 2016
 comments: true
-draft: true
+draft: false
 
 ---
 Over the past four years of working in San Francisco. And I believe blogging writing would accelerate learning even further. But then, why do I want to write not on Facebook, Twitter, or Medium but on my website?
