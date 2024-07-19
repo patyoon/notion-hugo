@@ -1,9 +1,13 @@
-{{ $url := .Destination }}
-{{ with resources.GetRemote $url }}
-  {{ with .Err }}
-    {{ errorf "Failed to download image %s" . }}
+{{ $imageResource := resources.GetRemote $url }}
+
+{{ with $imageResource }}
+  {{ if .Err }}
+    {{ errorf "Failed to download image %s" .Err }}
   {{ else }}
-    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} style="width: auto;height: auto;">
+    {{ $originalFilename := .Resource.Name }}
+    {{ $trimmedFilename := (replaceRE "_[^_]+$" "" $originalFilename) }}
+    {{ $trimmedImage := . | resources.Rename (printf "%s%s" $trimmedFilename (ext .Resource.Name)) }}
+    <img src="{{ $trimmedImage.RelPermalink }}" width="{{ $trimmedImage.Width }}" height="{{ $trimmedImage.Height }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} style="width: auto;height: auto;">
   {{ end }}
 {{ else }}
   {{ errorf "Invalid image url %q" $url }}
