@@ -1,3 +1,4 @@
+{{ $url := .Destination }}
 {{ $imageResource := resources.GetRemote $url }}
 
 {{ with $imageResource }}
