@@ -7,7 +7,7 @@ comments: true
 showMeta: false
 ---
 
-Ongoing update of what I am up to Now ([the Now Page Movement](https://nownownow.com/p/c444)).
+Ongoing update of what I am up to Now ([what is this for?](https://nownownow.com/about)) and my [profile](https://nownownow.com/p/c444) on nownownow.com.
 
 ***
 
