@@ -5,7 +5,7 @@ const BUILD_HOOK =
 
 // To learn about scheduled functions and supported cron extensions,
 // see: https://ntl.fyi/sched-func
-export const handler = schedule("0 */6 * * *", async () => {
+export const handler = schedule("0 */12 * * *", async () => {
   try {
     const response = await fetch(BUILD_HOOK, {
       method: "POST",
