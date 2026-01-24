@@ -1,5 +1,8 @@
 import { Client, isFullPage } from "@notionhq/client";
 import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
+import fs from "fs-extra";
+import path from "path";
+import axios from "axios";
 
 export function getPageTitle(page: PageObjectResponse): string {
   const title = page.properties.Name ?? page.properties.title;
@@ -37,4 +40,23 @@ export function getFileName(title: string, page_id: string): string {
     page_id.replaceAll("-", "") +
     ".md"
   );
+}
+
+export async function downloadCoverImage(
+  url: string,
+  pageId: string,
+): Promise<string> {
+  const uploadsDir = "static/uploads"
+  fs.ensureDirSync(uploadsDir)
+
+  // Extract file extension from URL or default to jpg
+  const urlPath = new URL(url).pathname
+  const ext = path.extname(urlPath) || ".jpg"
+  const filename = `cover-${pageId.replaceAll("-", "")}${ext}`
+  const filepath = path.join(uploadsDir, filename)
+
+  const response = await axios.get(url, { responseType: "arraybuffer" })
+  fs.writeFileSync(filepath, response.data)
+
+  return `/uploads/${filename}`
 }

@@ -7,7 +7,7 @@ import path from "path";
 import YAML from "yaml";
 import { DatabaseMount, PageMount } from "./config";
 import { getContentFile } from "./file";
-import { getFileName, getPageTitle } from "./helpers";
+import { getFileName, getPageTitle, downloadCoverImage } from "./helpers";
 import { sh } from "./sh";
 
 function getExpiryTime(
@@ -57,6 +57,27 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
     lastmod: page.last_edited_time,
     draft: false,
   };
+
+  // extract cover image
+  if (page.cover) {
+    try {
+      if (page.cover.type === "external") {
+        frontMatter.coverImage = page.cover.external.url
+      } else if (page.cover.type === "file") {
+        // Download Notion-hosted cover images to avoid URL expiration
+        const localPath = await downloadCoverImage(page.cover.file.url, page.id)
+        frontMatter.coverImage = localPath
+        // Track expiry time for refresh logic
+        if (page.cover.file.expiry_time) {
+          if (!nearest_expiry_time || page.cover.file.expiry_time < nearest_expiry_time) {
+            nearest_expiry_time = page.cover.file.expiry_time
+          }
+        }
+      }
+    } catch (error) {
+      console.error(`[Error] Failed to process cover image for page ${page.id}:`, error)
+    }
+  }
 
   // map page properties to front matter
   for (const property in page.properties) {
