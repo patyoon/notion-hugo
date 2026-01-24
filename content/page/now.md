@@ -7,9 +7,32 @@ comments: true
 showMeta: false
 ---
 
-Ongoing update of what I am up to Now ([what is this for?](https://nownownow.com/about)) and my [profile](https://nownownow.com/p/c444) on nownownow.com.
+Ongoing update of what I am up to Now ([what is this for?](https://nownownow.com/about)). My [profile](https://nownownow.com/p/c444) is now on nownownow.com.
 
 ***
+
+## Jan 24th, 2026
+
+I have been absent from updating this doc for two years. One of my 2026 priority is to spend more time on my personal branding so we will see.
+
+### Work
+
+**WeaveGrid** : I recently passed my third anniversary at WeaveGrid. The last two years have been a rollercoaster, both personally and for my team. I have continued to partner with vehicle OEMs, and the number I have worked with has now reached seven. Because we are usually the first software company to formally integrate with their charge scheduling systems for real-time grid optimization—rather than relying on backdoor reverse engineering like many of our competitors—it has been a massive learning opportunity for both sides. For us, the challenge has been figuring out how to execute our Go-To-Market strategy as fast as possible while navigating real-world constraints and surprises from automakers.
+
+**Burning Man Project**: I have become more involved with the organizing body of Burning Man. After becoming a Black Rock Ranger in 2024, I volunteered at various regional events and eventually joined the Community Events Team—a group of 20–30 volunteers responsible for organizing annual one-day events like SF Decompression and Burnal Equinox. As a Ranger Lead, I recruit other Rangers and serve as a "Khaki" (a liaison between Rangers and other teams like ESD, Security, and Production). It has been an eye-opening experience to see how volunteer-run events are executed, and humbling to witness the amount of sweat and effort poured into making them happen.
+
+**DJing**: Outside of my software work, I have significantly scaled down my DJing, playing only occasionally at house parties or friends' weddings. It is a skill that requires constant curation, deep listening to understand song structures, and finding tracks that mix well together to create a cohesive stage experience. I am tabling it for now, but I plan to return to it someday—hopefully adding live elements, like finger drumming (inspired by Fred Again..).
+
+### Not Work
+
+**Communication**: As I’ve taken on more client-facing work over the last two years, I decided I needed to improve my organizational and public speaking skills. In July 2024, I joined the "Everybody Speaks" Club. I have been attending meetings and giving a 5–7 minute speech at least once a month (everyone in the club speaks at least once per meeting, hence the name). I will share a longer post about this later, but I plan to stick with it to become a better communicator and hopefully break my physical habit of swaying ("rocking the boat") while speaking.
+
+**Physical**: I continued running frequently in 2024, finishing the San Francisco Marathon in July in just under five hours. I went on to finish my first Olympic-distance triathlon in Santa Cruz and a half Ironman (70.3) in Cervia, Italy. These races were not only gratifying experiences, but they also helped me build the focus and stamina I will need in 2025. The standing ovation from the crowds dining outdoors in Cervia is something I will never forget.
+
+**Travel & Highlights**: Since April 2024, I have traveled extensively: two international weddings (at one, I DJ'd Indian EDM), two Burning Man events, and four trips to Korea.
+  - Least Favorite: In Berlin, my ex and I tried to get into Berghain and KitKat on our last night. It was surprisingly cold for October, and we got rejected from both. I will be back.
+  - Favorites: Wandering barefoot during the "Mud Burn" of 2024, wine tasting at a family winery in Valpolicella, the Sand Bar in Key Largo, and being in the second row for the Fred again.. USB Tour show in SF.
+
 
 ## April 15th, 2024
 
