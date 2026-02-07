@@ -38,21 +38,13 @@ Changing theme files requires re-compiling assets and files
 npm run prod
 ```
 
-### To release the theme change
+### After performing a change, always run the build command
 
-``` bash
-cd themes/hugo-tranquilpeak-theme
-# Make sure to include the newly compiled static files.
-git add . && git commit -m <msg>
-git tag -a release-0.0.N
-git push --tags
-cd ../../
-# update all submodules to latest tag
-git submodule foreach 'git fetch origin; git checkout $(git describe --tags `git rev-list --tags --max-count=1`);'
-# add submodule change.
-git add . && git commit -m <msg>
-git push
 ```
+hugo --gc --minify
+```
+
+to verify the change.
 
 ### Running server locally
 
@@ -132,28 +124,6 @@ If submodule is missing or empty:
 rm -rf themes/tranquilpeak
 git submodule add https://github.com/patyoon/hugo-theme.git themes/tranquilpeak
 ```
-
-## Algolia Search Setup
-
-Added search functionality to sidebar with Algolia integration:
-
-1. **Config updated** in `config/_default/config.toml`:
-```toml
-[params.algolia]
-appId = "YOUR_ALGOLIA_APP_ID"
-apiKey = "YOUR_ALGOLIA_SEARCH_API_KEY"  # Use Search-Only API Key
-indexName = "YOUR_INDEX_NAME"
-params = ["categories", "tags"]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-```
-
-2. **Search button added** to `themes/tranquilpeak/layouts/partials/sidebar.html`
-
-3. **To activate:**
-   - Sign up at https://www.algolia.com (free tier: 10k searches/month)
-   - Get API keys from Settings → API Keys
-   - Update config.toml with your credentials
-   - Index your content using Algolia CLI or plugin
 
 ## Git Conflict Resolution
 
