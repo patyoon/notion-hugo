@@ -5,7 +5,14 @@
       "Bash(git checkout:*)",
       "Bash(git rm:*)",
       "Bash(git submodule update:*)",
-      "Bash(git rebase:*)"
+      "Bash(git rebase:*)",
+      "Bash(git submodule:*)",
+      "Bash(git commit:*)",
+      "Bash(git ls-remote:*)",
+      "Bash(git push:*)",
+      "Bash(git -C themes/tranquilpeak add layouts/shortcodes/contact.html)",
+      "Bash(git -C themes/tranquilpeak commit -m \"Update contact form to use Netlify Forms\")",
+      "Bash(git -C themes/tranquilpeak push)"
     ]
   }
 }

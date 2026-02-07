@@ -175,9 +175,9 @@ numHomepagePreview = 5
     url = "https://twitter.com/intent/tweet?text=%s"
 
 [params.algolia]
-appId = "YOUR_ALGOLIA_APP_ID"
-apiKey = "YOUR_ALGOLIA_SEARCH_API_KEY"
-indexName = "YOUR_INDEX_NAME"
+appId = "K7G6P024WF"
+apiKey = "3035e09fbcdb0d0d8f5bbf54201c629a"
+indexName = "pages"
 params = ["categories", "tags"]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 [params.footer]
