@@ -33,7 +33,7 @@
     "@notionhq/client": "^5.9.0",
     "@pclouddev/notion-to-markdown": "^2.7.17",
     "atomic-algolia": "^0.3.19",
-    "axios": "^1.7.7",
+    "axios": "^1.13.4",
     "dotenv": "^17.2.4",
     "front-matter": "^4.0.2",
     "fs-extra": "^11.2.0",
