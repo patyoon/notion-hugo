@@ -57,31 +57,31 @@ weight = 6
 [[languages.en-us.menu.main]]
 identifier = "home"
 name = "Home"
-pre = "<i class=\"sidebar-button-icon fas fa-home\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/"
 weight = 1
 [[languages.en-us.menu.main]]
 identifier = "now"
 name = "Now"
-pre = "<i class=\"sidebar-button-icon fas fa-clock\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/page/now"
 weight = 2
 [[languages.en-us.menu.main]]
 identifier = "blog"
 name = "Blog"
-pre = "<i class=\"sidebar-button-icon fas fa-pencil-alt\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/post"
 weight = 3
 [[languages.en-us.menu.main]]
 identifier = "contact"
 name = "Contact"
-pre = "<i class=\"sidebar-button-icon fas fa-envelope\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/page/contact"
 weight = 4
 [[languages.en-us.menu.main]]
 identifier = "cv"
 name = "CV"
-pre = "<i class=\"sidebar-button-icon fas fa-file-alt\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/files/cv.pdf"
 weight = 5
 [languages.ko]
@@ -122,19 +122,19 @@ weight = 5
 [[languages.ko.menu.main]]
 identifier = "home"
 name = "홈"
-pre = "<i class=\"sidebar-button-icon fas fa-home\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/"
 weight = 1
 [[languages.ko.menu.main]]
 identifier = "blog"
 name = "블로그"
-pre = "<i class=\"sidebar-button-icon fas fa-pencil-alt\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/post"
 weight = 2
 [[languages.ko.menu.main]]
 identifier = "cv"
 name = "이력"
-pre = "<i class=\"sidebar-button-icon fas fa-file-alt\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "https://patyoon.com/files/cv.pdf"
 weight = 3
 [markup]

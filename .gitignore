@@ -12,3 +12,6 @@ public
 # Local development config with secrets
 config/development/
 config/local/
+
+# Claude Code local settings
+.claude/settings.local.json
