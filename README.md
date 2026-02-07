@@ -36,20 +36,39 @@ Changing theme files requires re-compiling assets and files
 npm run prod
 ```
 
-### To release the theme change
+### Updating the theme
 
+The theme is a git submodule. To make changes:
+
+#### 1. Edit theme files
 ``` bash
-cd themes/hugo-tranquilpeak-theme
-# Make sure to include the newly compiled static files.
-git add . && git commit -m <msg>
-git tag -a release-0.0.N
-git push --tags
-cd ../../
-# update all submodules to latest tag
-git submodule foreach 'git fetch origin; git checkout $(git describe --tags `git rev-list --tags --max-count=1`);'
-# add submodule change.
-git add . && git commit -m <msg>
+cd themes/tranquilpeak
+# Make your changes to layouts, partials, etc.
+# If you changed SCSS, run: npm run prod
+```
+
+#### 2. Commit changes in submodule
+``` bash
+git add .
+git commit -m "Description of theme changes"
+git push origin master
+cd ../..
+```
+
+#### 3. Update main repository
+``` bash
+# Update submodule reference to point to new commit
+git add themes/tranquilpeak
+git commit -m "Update tranquilpeak submodule: description"
 git push
+```
+
+#### To release a new theme version (optional)
+``` bash
+cd themes/tranquilpeak
+git tag -a release-0.0.N -m "Release 0.0.N"
+git push --tags
+cd ../..
 ```
 
 ## Hugo
