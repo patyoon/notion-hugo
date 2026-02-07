@@ -1,4 +1,4 @@
-baseURL = "https://patyoon.com/"
+baseURL = "https://www.patyoon.com/"
 canonifyurls = true
 defaultContentLanguage = "en-us"
 enableRobotsTXT = true
