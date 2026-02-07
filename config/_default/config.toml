@@ -1,7 +1,6 @@
 baseURL = "https://patyoon.com/"
 canonifyurls = true
 defaultContentLanguage = "en-us"
-disqusShortname = "patrickyoon"
 enableRobotsTXT = true
 languageCode = "en-us"
 theme = "tranquilpeak"
@@ -10,14 +9,8 @@ title = "Patrick Yeo Ho Yoon's Blog"
 [pagination]
 pagerSize = 7
 
-[author]
-bio = "I'm a software engineer based in San Francisco, and here I write about lessons I have learned and stuffs that I deeply care about."
-email = "me@patyoon.com"
-github = "https://github.com/patyoon"
-job = "Software Developer"
-location = "San Francisco"
-name = "Patrick Yeo Ho Yoon"
-twitter = "patryoon"
+[services.disqus]
+shortname = "patrickyoon"
 [blackfriday]
 angledQuotes = true
 hrefTargetBlank = true
@@ -161,6 +154,15 @@ syntaxHighlighter = "highlight.js"
 thumbnailImage = true
 thumbnailImagePosition = "right"
 numHomepagePreview = 5
+
+[params.author]
+bio = "I'm a software engineer based in San Francisco, and here I write about lessons I have learned and stuffs that I deeply care about."
+email = "me@patyoon.com"
+github = "https://github.com/patyoon"
+job = "Software Developer"
+location = "San Francisco"
+name = "Patrick Yeo Ho Yoon"
+twitter = "patryoon"
   # ---------------
   # Sharing options
   # ---------------
