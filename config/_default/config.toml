@@ -21,37 +21,37 @@ weight = 1
 [[languages.en-us.menu.links]]
 identifier = "github"
 name = "GitHub"
-pre = "<i class=\"sidebar-button-icon fa fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fab fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
 url = "https://github.com/patyoon"
 weight = 1
 [[languages.en-us.menu.links]]
 identifier = "linkedin"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fab fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
 url = "https://www.linkedin.com/in/patyoon"
 weight = 2
 [[languages.en-us.menu.links]]
 identifier = "soundcloud"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fab fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
 url = "https://www.soundcloud.com/djscrapmetal"
 weight = 3
 [[languages.en-us.menu.links]]
 identifier = "RSS"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-rss\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-rss\" aria-hidden=\"true\"></i>"
 url = "/index.xml"
 weight = 4
 [[languages.en-us.menu.links]]
 identifier = "strava"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-strava\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fab fa-strava\" aria-hidden=\"true\"></i>"
 url = "https://www.strava.com/athletes/36130089"
 weight = 5
 [[languages.en-us.menu.links]]
 identifier = "instagram"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa fa-instagram\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fab fa-instagram\" aria-hidden=\"true\"></i>"
 url = "https://www.instagram.com/patyoon"
 weight = 6
 [[languages.en-us.menu.main]]
@@ -93,25 +93,25 @@ name = "윤여호"
 [[languages.ko.menu.links]]
 identifier = "github"
 name = "GitHub"
-pre = "<i class=\"sidebar-button-icon fa-brands fa-lg fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" title=\"Github\" aria-hidden=\"true\"></i>"
 url = "https://github.com/patyoon"
 weight = 1
 [[languages.ko.menu.links]]
 identifier = "linkedin"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa-brands fa-lg fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fab fa-lg fa-linkedin\" title=\"LinkedIn\" aria-hidden=\"true\"></i>"
 url = "https://www.linkedin.com/in/patyoon"
 weight = 2
 [[languages.ko.menu.links]]
 identifier = "soundcloud"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa-brands fa-lg fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fab fa-lg fa-soundcloud\" title=\"Soundcloud\" aria-hidden=\"true\"></i>"
 url = "https://www.soundcloud.com/djscrapmetal"
 weight = 4
 [[languages.ko.menu.links]]
 identifier = "RSS"
 name = ""
-pre = "<i class=\"sidebar-button-icon fa-brands fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
 url = "/index.xml"
 weight = 5
 [[languages.ko.menu.main]]
