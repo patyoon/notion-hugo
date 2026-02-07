@@ -68,20 +68,6 @@ hugo server
 hugo new content/post/<title>.md
 ```
 
-Refer to the [user doc](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#writing-posts) for the frontmatters
-
-### Deploying on netlify
-
-Themes are registered as submodule ([resource](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify)).
-Therefore, the theme repo must be set to public so that netlify builder can access it.
-
-
-## Creating a new post
-
-``` bash
-hugo new content/post/<title>.md
-```
-
 ### Adding an image
 
 With the integration with Notion Hugo, instead of inserting image as
@@ -119,12 +105,12 @@ I added a shortcode optimized for rendering YouTube shorts.
 
 ### Setting frontmatters
 
-Refer to the [user doc](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#writing-posts) for the frontmatters
+Refer to the [user doc](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#writing-posts) for the frontmatters.
 
 In addition to frontmatters from the theme, I added new frontmatters:
 
-- draft: A post created as draft won't be generated.
-- private: A post created as private will be generated but won't be indexed or show up on the list of posts. It can be only accessed via it's URL.
+- `draft`: A post created as draft won't be generated.
+- `private`: A post created as private will be generated but won't be indexed or show up on the list of posts. It can be only accessed via its URL.
 
 ### Subscription form
 
@@ -132,18 +118,18 @@ For subscription form I am using [beehiiv](https://www.beehiiv.com/) and the ifr
 
 ## Deployment
 
-### Cloudinary CDN
-
-The site is configured to use Cloudinary as the image CDN with lazy loading. Add images to `static/uploads` and it will be automatically uploaded to Cloudinary by netlify builder. And you can reference the image by `/uploads/filename.jpg'
-
-### Deploying on netlify
+### Netlify
 
 Themes are registered as submodule ([resource](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify)).
 Therefore, the theme repo must be set to public so that netlify builder can access it. In addition, the deploy key from netlify should be added to the submodule GitHub repo.
 
+### Cloudinary CDN
+
+The site is configured to use Cloudinary as the image CDN with lazy loading. Add images to `static/uploads` and they will be automatically uploaded to Cloudinary by the netlify builder. Reference images using `/uploads/filename.jpg`.
+
 ### Syncing with Notion
 
-The continuous deploy runs every hour to sync the content from Notion. Or you can kick it off manually on netlify.
+The continuous deploy runs every hour to sync content from Notion. You can also trigger it manually on netlify.
 
 #### Dev Troubleshooting
 
