@@ -4,7 +4,6 @@ import fs from "fs-extra";
 import { savePage } from "./render";
 import { loadConfig } from "./config";
 import { getAllContentFiles } from "./file";
-import { isFullPageOrDatabase } from "@notionhq/client/build/src/helpers";
 
 dotenv.config();
 
@@ -24,10 +23,10 @@ async function main() {
   // process mounted databases
   for (const mount of config.mount.databases) {
     fs.ensureDirSync(`content/${mount.target_folder}`);
-    for await (const page of iteratePaginatedAPI(notion.databases.query, {
-      database_id: mount.database_id,
+    for await (const page of iteratePaginatedAPI(notion.dataSources.query, {
+      data_source_id: mount.database_id,
     })) {
-      if (!isFullPageOrDatabase(page) || page.object !== "page") {
+      if (!isFullPage(page)) {
         continue;
       }
       console.info(`[Info] Start processing page ${page.id}`);
