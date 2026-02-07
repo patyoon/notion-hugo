@@ -12,7 +12,8 @@
       "Bash(git push:*)",
       "Bash(git -C themes/tranquilpeak add layouts/shortcodes/contact.html)",
       "Bash(git -C themes/tranquilpeak commit -m \"Update contact form to use Netlify Forms\")",
-      "Bash(git -C themes/tranquilpeak push)"
+      "Bash(git -C themes/tranquilpeak push)",
+      "Bash(hugo version:*)"
     ]
   }
 }
