@@ -175,9 +175,9 @@ numHomepagePreview = 5
     url = "https://twitter.com/intent/tweet?text=%s"
 
 [params.algolia]
-appId = "K7G6P024WF"
-apiKey = "3035e09fbcdb0d0d8f5bbf54201c629a"
-indexName = "pages"
+# Algolia credentials are set via Netlify environment variables:
+# HUGO_PARAMS_ALGOLIA_APPID, HUGO_PARAMS_ALGOLIA_APIKEY, HUGO_PARAMS_ALGOLIA_INDEXNAME
+# For local development, set them in your shell or create config/development/config.toml (gitignored)
 params = ["categories", "tags"]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 [params.footer]

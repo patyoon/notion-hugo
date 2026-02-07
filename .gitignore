@@ -8,3 +8,7 @@ public
 
 # Local Netlify folder
 .netlify
+
+# Local development config with secrets
+config/development/
+config/local/
