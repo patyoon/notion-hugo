@@ -30,7 +30,7 @@
   "author": "HEIGE-PCloud",
   "dependencies": {
     "@netlify/functions": "^2.8.1",
-    "@notionhq/client": "^2.2.15",
+    "@notionhq/client": "^5.9.0",
     "@pclouddev/notion-to-markdown": "^2.7.17",
     "atomic-algolia": "^0.3.19",
     "axios": "^1.7.7",
