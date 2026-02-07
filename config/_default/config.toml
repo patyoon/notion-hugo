@@ -4,9 +4,12 @@ defaultContentLanguage = "en-us"
 disqusShortname = "patrickyoon"
 enableRobotsTXT = true
 languageCode = "en-us"
-paginate = 7
 theme = "tranquilpeak"
 title = "Patrick Yeo Ho Yoon's Blog"
+
+[pagination]
+pagerSize = 7
+
 [author]
 bio = "I'm a software engineer based in San Francisco, and here I write about lessons I have learned and stuffs that I deeply care about."
 email = "me@patyoon.com"
@@ -190,7 +193,7 @@ tag = "tags"
   [privacy.instagram]
     disable = false
     simple = false
-  [privacy.twitter]
+  [privacy.x]
     disable = false
     enableDNT = true
     simple = false
