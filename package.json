@@ -34,7 +34,7 @@
     "@pclouddev/notion-to-markdown": "^2.7.17",
     "atomic-algolia": "^0.3.19",
     "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.2.4",
     "front-matter": "^4.0.2",
     "fs-extra": "^11.2.0",
     "node-fetch": "^3.3.2",
