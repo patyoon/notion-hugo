@@ -1,17 +1,14 @@
 {{ $url := .Destination }}
-{{ $imageResource := resources.GetRemote $url }}
+{{ $imageResource := try (resources.GetRemote $url) }}
 
-{{ with $imageResource }}
-  {{ if .Err }}
-    {{ errorf "Failed to download image %s" .Err }}
-  {{ else }}
-    {{ $originalFilename := $imageResource.Name }}
-    {{ $fileExtension := (path.Ext $originalFilename) }}
-    {{ $trimmedFilename := (replaceRE "_[^_]+$" "" (replace $originalFilename $fileExtension "")) }}
-    {{ $newFilename := printf "%s%s" $trimmedFilename $fileExtension }}
-    {{ $newImage := . | resources.Copy $newFilename }}
-    <img src="{{ $newImage.RelPermalink }}" width="{{ $newImage.Width }}" height="{{ $newImage.Height }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} style="width: auto;height: auto;">
-  {{ end }}
+{{ with $imageResource.Err }}
+  {{ errorf "Failed to download image %s" . }}
 {{ else }}
-  {{ errorf "Invalid image url %q" $url }}
+  {{ $image := $imageResource.Value }}
+  {{ $originalFilename := $image.Name }}
+  {{ $fileExtension := (path.Ext $originalFilename) }}
+  {{ $trimmedFilename := (replaceRE "_[^_]+$" "" (replace $originalFilename $fileExtension "")) }}
+  {{ $newFilename := printf "%s%s" $trimmedFilename $fileExtension }}
+  {{ $newImage := $image | resources.Copy $newFilename }}
+  <img src="{{ $newImage.RelPermalink }}" width="{{ $newImage.Width }}" height="{{ $newImage.Height }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} style="width: auto;height: auto;">
 {{ end }}
