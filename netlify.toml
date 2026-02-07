@@ -2,7 +2,7 @@
 publish = "public"
 command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && hugo --gc --minify && rm -rf /opt/build/cache"
 [build.environment]
-  HUGO_VERSION = "0.128.2"
+  HUGO_VERSION = "0.155.2"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
