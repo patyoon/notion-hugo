@@ -2,12 +2,12 @@
      Hugo's minifier strips quotes from attributes, which can prevent
      Netlify from detecting data-netlify="true" forms. -->
 <html><body>
-  <form name="subscribe" netlify netlify-honeypot="bot-field" hidden>
+  <form name="subscribe" action="/page/subscribed/" netlify netlify-honeypot="bot-field" hidden>
     <input name="form-name" type="hidden" value="subscribe" />
     <input name="bot-field" type="hidden" />
     <input name="email" type="email" />
   </form>
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+  <form name="contact" action="/page/contacted/" netlify netlify-honeypot="bot-field" hidden>
     <input name="form-name" type="hidden" value="contact" />
     <input name="bot-field" type="hidden" />
     <input name="name" type="text" />
