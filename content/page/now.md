@@ -5,6 +5,7 @@ categories:
   - personal
 comments: true
 showMeta: false
+clearReading: true
 ---
 
 Ongoing update of what I am up to Now ([what is this for?](https://nownownow.com/about)). My [profile](https://nownownow.com/p/c444) is now on nownownow.com.
