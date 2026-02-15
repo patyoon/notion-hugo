@@ -10,5 +10,7 @@
   {{ $trimmedFilename := (replaceRE "_[^_]+$" "" (replace $originalFilename $fileExtension "")) }}
   {{ $newFilename := printf "%s%s" $trimmedFilename $fileExtension }}
   {{ $newImage := $image | resources.Copy $newFilename }}
-  <img src="{{ $newImage.RelPermalink }}" width="{{ $newImage.Width }}" height="{{ $newImage.Height }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} style="width: auto;height: auto;">
+  <a class="fancybox" href="{{ $newImage.RelPermalink }}" {{- with $.Title }} title="{{ . }}"{{ end -}} data-fancybox-group="gallery-{{ $.Page.File.UniqueID }}">
+    <img src="{{ $newImage.RelPermalink }}" width="{{ $newImage.Width }}" height="{{ $newImage.Height }}" {{- with $.Text }} alt="{{ . }}"{{ end -}} {{- with $.Title }} title="{{ . }}"{{ end -}} style="width: auto;height: auto;">
+  </a>
 {{ end }}

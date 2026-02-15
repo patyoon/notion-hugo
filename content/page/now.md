@@ -1,8 +1,6 @@
 ---
 title: Now
 date: 2022-01-01T08:00:00.000Z
-categories:
-  - personal
 comments: true
 showMeta: false
 clearReading: true
