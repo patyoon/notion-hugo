@@ -1,7 +1,7 @@
 # Architecture overview
 
 - I made this website with [Hugo](https://gohugo.io/) based on [hugo-tranquilpeak-theme](https://github.com/kakawait/hugo-tranquilpeak-theme) with the sidebar from [hugo-creative-portfolio-theme](https://themes.gohugo.io/hugo-creative-portfolio-theme/)
-- The site is deployed on [netlify](https://www.netlify.com/) with [Cloudinary](https://cloudinary.com/) as the image CDN. And it is connected with my notion with [notion-hugo](https://github.com/HEIGE-PCloud/Notion-Hugo) to use it as content management system (CMS).
+- The site is deployed on [netlify](https://www.netlify.com/) with [Cloudinary](https://cloudinary.com/) as the image CDN. The static files including images live in git lfs. And it is connected with my notion with [notion-hugo](https://github.com/HEIGE-PCloud/Notion-Hugo) to use it as content management system (CMS).
 
 # Code Style Guidelines
 Syntax: Use ES Modules (`import`/`export`) rather than CommonJS. Use modern ES6+ features (arrow functions, etc.) where appropriate.
@@ -73,13 +73,27 @@ Set up Git LFS to track large binary files (images, videos, PDFs):
 git lfs install
 
 # LFS tracking is configured in .gitattributes for:
-# - Images: *.jpg, *.jpeg, *.png, *.gif, *.webp, *.bmp, *.tiff, *.ico
+# - Images: *.jpg, *.JPG, *.jpeg, *.JPEG, *.png, *.PNG, *.gif, *.webp, *.bmp, *.tiff, *.ico
 # - Videos: *.mp4, *.mov, *.avi, *.webm
-# - Documents: *.pdf
 # - Audio: *.mp3, *.wav, *.ogg
 ```
 
-**Note:** Existing images in the repo were committed before LFS was configured, so they remain as regular Git objects. New images will automatically use LFS.
+**Note:** All existing images have been migrated to LFS. New images will automatically use LFS.
+
+### Adding new images
+
+New images placed in `static/uploads/` are automatically tracked by LFS via `.gitattributes`. Just add and commit normally:
+
+```bash
+git add static/uploads/my-image.jpg
+git commit -m "Add new image"
+```
+
+To verify files are tracked by LFS:
+
+```bash
+git lfs ls-files
+```
 
 ## Forms Migration to Netlify Forms
 
