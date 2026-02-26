@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "git submodule update --force --init --recursive --depth=1 && npm install && npm start && hugo --gc --minify && npm run algolia && rm -rf /opt/build/cache"
+command = "git lfs install && git lfs pull && git submodule update --force --init --recursive --depth=1 && npm install && npm start && hugo --gc --minify && npm run algolia && rm -rf /opt/build/cache"
 [build.environment]
   HUGO_VERSION = "0.155.2"
   HUGO_ENV = "production"
