@@ -7,7 +7,7 @@ autoThumbnailImage = true
 categories = [ "life" ]
 comments = true
 private = false
-tags = [ "vegiterianism" ]
+tags = [ "vegetarianism" ]
 draft = false
 +++
 

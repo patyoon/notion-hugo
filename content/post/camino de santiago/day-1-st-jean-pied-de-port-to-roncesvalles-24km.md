@@ -14,7 +14,7 @@ I could not easily fall asleep with excitement and partly because of the snores 
 
 {{< image classes="fancybox clear fig-75" group="1" src="/uploads/img_7409-large_fotor.jpg" >}}
 
-{{< image classes="fancybox clear fig-75" group="1" src="/uploads/snapseed-2-_fotor.jpg" title="The high route over the Pyrennes is called Route Napoleon even though Napoleon did not set a foot on the path">}}
+{{< image classes="fancybox clear fig-75" group="1" src="/uploads/snapseed-2-_fotor.jpg" title="The high route over the Pyrenees is called Route Napoleon even though Napoleon did not set a foot on the path">}}
 
 I met my Camino buddies in the first two hours of the most challenging section of the entire French Way. Peyman from Malmo, Sweden, Holly from Brighton, UK, and Anne from Nurnberg, Germany.
 
@@ -26,14 +26,14 @@ We met just after a few hours starting the walk but could already feel a strong 
 
 {{< wide-image src="/uploads/img_7459-large_fotor.jpg" >}}
 
-The day was mostly uphill, with hikers, aminals, and bicycles sharing the path.
+The day was mostly uphill, with hikers, animals, and bicycles sharing the path.
 
 {{< youtube_shorts "https://www.youtube.com/embed/UDlwlvAVfAo" >}}
 
-When we reached the top of Pyrennes and crossed the border to Spain, the blazing sun was directly above us, and there was no shade to hide.
+When we reached the top of the Pyrenees and crossed the border to Spain, the blazing sun was directly above us, and there was no shade to hide under.
 
 {{< youtube_shorts "https://www.youtube.com/embed/cWaCA4wGC1w" >}}
 
 After a steep walk down to Roncesvalles, it was so hot, and I broke my record of chugging a can of diet coke.
 
-I could barely climb to the bunk bed and stopped moving for an hour. After dinner at Albergue, I attended a mass. I could not understand anything, but I could feel the energy and spirit in the cathedral.
+I could barely climb to the bunk bed and stopped moving for an hour. After dinner at the Albergue, I attended a mass. I could not understand anything, but I could feel the energy and spirit in the cathedral.

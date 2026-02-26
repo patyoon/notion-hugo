@@ -25,7 +25,7 @@ The Puente La Reina bridge, with swaying reeds, looked even more beautiful in th
 
 We walked with a guy from York, England, discussing our past relationships. We shared moments when we felt judged and hurt instead of being understood. Peyman recited this Bible passage:
 
-> Matthew 7 = “Judge not, that you be not judged. For with the judgment you pronounce you will be judged, and with the measure you use it will be measured to you. Why do you see the speck that is in your brother's eye, but do not notice the log that is in your own eye?"
+> Matthew 7: "Judge not, that you be not judged. For with the judgment you pronounce you will be judged, and with the measure you use it will be measured to you. Why do you see the speck that is in your brother's eye, but do not notice the log that is in your own eye?"
 
  I loved this because I used to judge a lot. I become much more judgemental when I am tired, and things are on fire. I would lose patience, and the world centers around me. When I am relaxed, and things are going well, I am much better at accepting situations and dealing with everyday annoyances more gracefully. So are others. If someone judges me unfairly and harshly, my reaction used to be going right at it, arguing, and feeling angry, but I have been learning (or wanting to learn) that it might not be about me. Things could be on fire in their life, and I might be in the wrong moment at shitty timing. Also, when I judge people are such and such, and I am better and different, I remind myself I was the same way, doing and saying the same stuff not too long ago. I'm not in a place to judge them.
 
@@ -43,7 +43,7 @@ We saw a small river, and suddenly Estella appeared, with an impressive ruin of 
 
 {{< image classes="fancybox clear fig-75" src="/uploads/IMG_7684.jpg" title="Victory lunch and Estrella" group="1" >}}
 
-It was the first time I had finished walking before lunch, so I bought a round of beer for Charlie and Peyman. Charlie bought another round, so we got pretty drunk and knocked out. After a big nap, I watched Heung-Min Son score twice in the last game and became the first Asian top goalscorer in the English Premier League. I went downstairs to ask the hostess about my laundry, and she handed it to me with a big smile. I told her, "You seem to have the happiest job on earth," and she concurred. She was so full of life and joy.
+It was the first time I had finished walking before lunch, so I bought a round of beer for Charlie and Peyman. Charlie bought another round, so we got pretty drunk and knocked out. After a big nap, I watched Heung-Min Son score twice in the last game and become the first Asian top goalscorer in the English Premier League. I went downstairs to ask the hostess about my laundry, and she handed it to me with a big smile. I told her, "You seem to have the happiest job on earth," and she concurred. She was so full of life and joy.
 
 {{< youtube_shorts "https://youtube.com/embed/srsvUUhjSks" >}}
 

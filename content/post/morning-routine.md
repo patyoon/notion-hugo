@@ -14,11 +14,11 @@ Before I had a morning routine, I did not have a consistent way of starting my d
 
 **Make my bed**
 
-The first step is to get out of my bed and make my bed. [Tim Ferries described](https://tim.blog/wp-content/uploads/2018/07/5-morning-rituals-that-help-me-win-the-day-july2018.pdf) in his morning ritual that it gives you the day's first win. And it feels nice to see the bed made, especially working from home all day.
+The first step is to get out of my bed and make my bed. [Tim Ferriss described](https://tim.blog/wp-content/uploads/2018/07/5-morning-rituals-that-help-me-win-the-day-july2018.pdf) in his morning ritual that it gives you the day's first win. And it feels nice to see the bed made, especially working from home all day.
 
 **Put sunscreen on**
 
-The next step is to put on a jacket (multiple jackets these days. After living in the chilly Bay area for almost nine years, the cold is still never something I fully associate with the weather here). Then, I wash my face and put the sunscreen on because the long-term benefit of sunscreen has been proved by scientists, and [everybody is free to wear it](https://www.youtube.com/watch?v=sTJ7AzBIJoI&ab_channel=steffyweffy777).
+The next step is to put on a jacket (multiple jackets these days. After living in the chilly Bay area for almost nine years, the cold is still never something I fully associate with the weather here). Then, I wash my face and put the sunscreen on because the long-term benefit of sunscreen has been proven by scientists, and [everybody is free to wear it](https://www.youtube.com/watch?v=sTJ7AzBIJoI&ab_channel=steffyweffy777).
 
 **A slow walk around the park**
 
@@ -26,10 +26,10 @@ I walk around San Pablo Park slowly, like practicing kinhin(經行) - walking me
 
 **Massage**
 
-I use foam rollers and a lacrosse ball to massage my body, try a couple of pull-ups, and hang on a pull-up bar. Right after the workout, I learned that the morning is the best time to stretch after my muscle gets tight during sleep. Neck, hip flexors, and hip muscles are the ones I spend the most time on and are the most painful.
+I use foam rollers and a lacrosse ball to massage my body, try a couple of pull-ups, and hang on a pull-up bar. Right after the workout, I learned that the morning is the best time to stretch after my muscles get tight during sleep. Neck, hip flexors, and hip muscles are the ones I spend the most time on and are the most painful.
 
 **~~Coffee~~**
 
-For years I relied on coffee to wake up, but the awakeness did not feel mentally clear. I stopped drinking coffee every day last November. I occasionally drink if I need to power through the day or just enjoy the taste of a latte, but it is now replaced with this morning routine.
+For years I relied on coffee to wake up, but the wakefulness did not feel mentally clear. I stopped drinking coffee every day last November. I occasionally drink if I need to power through the day or just enjoy the taste of a latte, but it is now replaced with this morning routine.
 
 After these four rituals, I feel energized, awake, and ready to start my day. Once I become more consistent with checking off all four of these morning routines, I would like to create one for finishing off my day.

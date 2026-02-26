@@ -6,17 +6,17 @@ showMeta: false
 clearReading: true
 ---
 
-Ongoing update of what I am up to Now ([what is this for?](https://nownownow.com/about)). My [profile](https://nownownow.com/p/c444) is now on nownownow.com.
+Ongoing update of what I am up to Now ([what is this for?](https://nownownow.com/about)). My [profile](https://nownownow.com/p/c444) is now on [nownownow.com](https://nownownow.com/).
 
 ***
 
 ## Jan 24th, 2026
 
-I have been absent from updating this doc for two years. One of my 2026 priority is to spend more time on my personal branding so we will see.
+I have been absent from updating this doc for two years. One of my 2026 priorities is to spend more time on my personal branding, so we will see.
 
 ### Work
 
-**WeaveGrid** : I recently passed my third anniversary at WeaveGrid. The last two years have been a rollercoaster, both personally and for my team. I have continued to partner with vehicle OEMs, and the number I have worked with has now reached seven. Because we are usually the first software company to formally integrate with their charge scheduling systems for real-time grid optimization—rather than relying on backdoor reverse engineering like many of our competitors—it has been a massive learning opportunity for both sides. For us, the challenge has been figuring out how to execute our Go-To-Market strategy as fast as possible while navigating real-world constraints and surprises from automakers.
+**WeaveGrid**: I recently passed my third anniversary at WeaveGrid. The last two years have been a rollercoaster, both personally and for my team. I have continued to partner with vehicle OEMs, and the number I have worked with has now reached seven. Because we are usually the first software company to formally integrate with their charge scheduling systems for real-time grid optimization—rather than relying on backdoor reverse engineering like many of our competitors—it has been a massive learning opportunity for both sides. For us, the challenge has been figuring out how to execute our Go-To-Market strategy as fast as possible while navigating real-world constraints and surprises from automakers.
 
 **Burning Man Project**: I have become more involved with the organizing body of Burning Man. After becoming a Black Rock Ranger in 2024, I volunteered at various regional events and eventually joined the Community Events Team—a group of 20–30 volunteers responsible for organizing annual one-day events like SF Decompression and Burnal Equinox. As a Ranger Lead, I recruit other Rangers and serve as a "Khaki" (a liaison between Rangers and other teams like ESD, Security, and Production). It has been an eye-opening experience to see how volunteer-run events are executed, and humbling to witness the amount of sweat and effort poured into making them happen.
 
@@ -38,7 +38,7 @@ I have been absent from updating this doc for two years. One of my 2026 priority
 ### Work
 
 - I am past my first anniversary at WeaveGrid now. It has been a wild ride, jumping between being a full-stack engineer working on dashboards and the driver UI, to improving a complex state machine for charging schedules, data, and reporting. This year, I have focused more on onboarding new vehicle and smart charger OEM partners across time zones, which have fully turned me into a morning person.
-- I am trying to be more intentional about carving out time for things I want to excel at (including writing essays on this blog). This means simplifying my life, so I put a pause on my work as DJ Scrapmetal. Over two years, my two other musician friends, [JMARU](https://www.instagram.com/jmarumusic), [I LIKE TIGERS](https://www.instagram.com/iliketigersofficial), and I hosted four friends-and-family events, four paid gigs, and played at several house parties and Burning Man fundraisers. It taught me the craft of curating a musical journey for the audience and the intricacies of rallying a crowd and constant marketing efforts. I still don't get the marketing part; it feels unnatural to me, but regardless, our shows were always a sell-out. I sincerely appreciate everyone who came out to support us and danced the nights away.
+- I am trying to be more intentional about carving out time for things I want to excel at (including writing essays on this blog). This means simplifying my life, so I put a pause on my work as DJ Scrapmetal. Over two years, my two musician friends—[JMARU](https://www.instagram.com/jmarumusic) and [I LIKE TIGERS](https://www.instagram.com/iliketigersofficial)—and I hosted four friends-and-family events, four paid gigs, and played at several house parties and Burning Man fundraisers. It taught me the craft of curating a musical journey for the audience and the intricacies of rallying a crowd and constant marketing efforts. I still don't get the marketing part; it feels unnatural to me, but regardless, our shows were always a sell-out. I sincerely appreciate everyone who came out to support us and danced the nights away.
 
 ### Not Work
 
@@ -46,7 +46,7 @@ I have been absent from updating this doc for two years. One of my 2026 priority
 - I hosted an extravagant birthday party in December and invited everyone I made happy memories with and appreciated spending time with in 2023. It was a good excuse to bring people together in the era of remote work and no more holiday parties and wrap up the year and my early 30s on a high note.
 - I brought my family to Spain for the first time over the holidays and New Year's. I shared everything I love about Spain with them (particularly Caldo Gallego and churros), and holiday festivities there welcomed us with charming Mediterranean sun, pretty street lights, jamon, vermouth, and Hala Madrid.
 - On the same trip, I visited my French Camino friends in Toulouse and Lyon. We enjoyed delicious home-cooked meals, shared our post-Camino adventures, and reminisced over photos and memories from the Camino.
-- Ski season was another great year of heavy snowfall, especially towards the end of the season in March and April. Worst memory: getting stuck on I80 and skiing for only one day, spending less time in Tahoe than driving up. Best memories: pulling off a grueling solo drive to Tahoe after seeing James Hype and surprising Bowen on the slopes for his birthday, late night chatters  during après-first/ski-second trips, off-piste day at the Grand Montets, and cold plunge at the Nordic spa in Alyeska.
+- Ski season was another great year of heavy snowfall, especially towards the end of the season in March and April. Worst memory: getting stuck on I80 and skiing for only one day, spending less time in Tahoe than driving up. Best memories: pulling off a grueling solo drive to Tahoe after seeing James Hype and surprising Bowen on the slopes for his birthday, late-night chatter during après-first/ski-second trips, off-piste day at the Grand Montets, and cold plunge at the Nordic spa in Alyeska.
 
 ***
 
@@ -55,7 +55,7 @@ I have been absent from updating this doc for two years. One of my 2026 priority
 ### Work
 
 - I have been working on the Managed Charge Team at WeaveGrid, responsible for developing products that optimize EV drivers' charging schedules based on utility rates, real-time signals from wholesale prices, weather for renewable energy, and more. It has been a fun ride learning about issues in the automotive and utility sectors, understanding gaps in today's grid, EV penetration, and the increase of renewable energy. To learn more about the problem we are solving, listen to this [MCJ Podcast](https://www.mcjcollective.com/my-climate-journey-podcast/weavegrid) by our CEO, Apoorv.
-- Organized another club party at the Foundry (dubbed Portola Preparty) and played an hour set mixing garage, drum and bass, with a little spice of dubstep. Joseph, Ayush and I then went on at the end and played tech house b2b2b. The dance floor was almost empty towards the end but regardless, but that last 20 minutes was the most adrenaline spiking set I have played in a while.
+- Organized another club party at the Foundry (dubbed Portola Preparty) and played an hour set mixing garage, drum and bass, with a little spice of dubstep. Joseph, Ayush and I then went on at the end and played tech house b2b2b. The dance floor was almost empty towards the end, but regardless, that last 20 minutes was the most adrenaline-spiking set I have played in a while.
 
 {{< youtube_shorts "https://www.youtube.com/embed/JCMA4yzH6PU" >}}
 
@@ -67,7 +67,7 @@ I have been absent from updating this doc for two years. One of my 2026 priority
 
 {{< youtube_shorts "https://www.youtube.com/embed/HWWMzZ7nB0A" >}}
 
-- After seven years of absence, I finally returned to the playa, the Home, and the Muddy Man. This year, I applied to be a [Black Rock Ranger](https://burningman.org/event/participate/volunteering/teams/brc-rangers/), burners who volunteer their time during the event in the role of non-confrontational community mediators. I went through in-person training at the Burning Man HQ in SF, and passed the alpha shift—a test to determine if you have the qualities of a ranger, worked three six-hour shifts, and served as Burn perimeter who ensures the safety during the Man Burn. I plan to write about this experience in more detail, but in short, I learned a lot about handling nuanced situations non-confrontationally and being able to confidently and concisely make radio calls (taking notes and writing down what you want to say is the key).
+- After seven years of absence, I finally returned to the playa, the Home, and the Muddy Man. This year, I applied to be a [Black Rock Ranger](https://burningman.org/event/participate/volunteering/teams/brc-rangers/), burners who volunteer their time during the event in the role of non-confrontational community mediators. I went through in-person training at the Burning Man HQ in SF, and passed the alpha shift—a test to determine if you have the qualities of a ranger, worked three six-hour shifts, and served on Burn perimeter, ensuring safety during the Man Burn. I plan to write about this experience in more detail, but in short, I learned a lot about handling nuanced situations non-confrontationally and being able to confidently and concisely make radio calls (taking notes and writing down what you want to say is the key).
 
 {{< image classes="fancybox clear fig-75" src="/uploads/burn_perimeter.JPG" title="Burn Perimeter Quad 1" group="2">}}
 
@@ -94,7 +94,7 @@ I have been absent from updating this doc for two years. One of my 2026 priority
 ### Creative
 
 - Although starting a new job has taken up most of my time, I've managed to showcase my DJ sets at three different venues: [The Foundry](https://www.thefoundrysf.com/ "The Foundry"), [Le Petit Paris](https://lppsf.com/ "Le Petit Paris"), and a Burning Man camp fundraiser. With other crews playing the genre of melodic house and techno, I try to blend in a more funky and soulful sound and even some remix of top 40 songs to add some variety. You can listen to my sets on [SoundCloud](https://soundcloud.com/djscrapmetal).
-- The set we played at Sutro Bath was unreal and "This Never Happened"
+- The set we played at Sutro Baths was unreal and "This Never Happened."
 
 ***
 
@@ -102,7 +102,7 @@ I have been absent from updating this doc for two years. One of my 2026 priority
 
 ### Work
 
-* I left Airbnb in February and have been taking a sabbatical from work. But I am not retired (surprise!) and am starting to feel irresitable itch to put my talent in to use for something useful.
+* I left Airbnb in February and have been taking a sabbatical from work. But I am not retired (surprise!) and am starting to feel an irresistible itch to put my talent to use for something useful.
 
 ### Travel
 
@@ -131,7 +131,7 @@ I have been absent from updating this doc for two years. One of my 2026 priority
 ### Work
 
 - I work at Airbnb, building a feature store for machine learning, Zipline. I have been primarily working on building the streaming layer of the system and improving the feature serving latency.
-- I rebooted this blog. I haven't decided on my pace yet, but I aim to get steady writing posts.
+- I rebooted this blog. I haven't decided on my pace yet, but I aim to write posts at a steady pace.
 
 ### Life
 

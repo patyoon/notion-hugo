@@ -10,13 +10,13 @@ tags = ["camino de santiago"]
 title = "Day 4: Pamplona to Puente La Reina 24km"
 
 +++
-We walked from the outskirts of the town to the center of Pamplona in the dawn and passed through the old city through the medieval walls watching the sunrise. The whole town was asleep except for the pilgrims.
+We walked from the outskirts of the town to the center of Pamplona at dawn and passed through the old city through the medieval walls watching the sunrise. The whole town was asleep except for the pilgrims.
 
-{{< image classes="fancybox clear fig-75" src="/uploads/img_7593_fotor.jpg" title="City  wall of Pamplona,a city built in 74 BC by the Roman military. The Basques calls it Iruña, meaning 'the city'" group="1">}}
+{{< image classes="fancybox clear fig-75" src="/uploads/img_7593_fotor.jpg" title="City  wall of Pamplona,a city built in 74 BC by the Roman military. The Basques call it Iruña, meaning 'the city'" group="1">}}
 
 As we walked out of the city, I saw a massive wheat field splashed with red poppies.
 
-{{< image classes="fancybox clear fig-75" src="/uploads/img_7605_fotor.jpg" title="Wheat fields that you see it again and again, but never get tired of." group="1" >}}
+{{< image classes="fancybox clear fig-75" src="/uploads/img_7605_fotor.jpg" title="Wheat fields that you see again and again, but never get tired of." group="1" >}}
 
 The group, my original Camino Buddies plus Heewon, Raj, and the Spaniards, all met up for a brief break for breakfast before we charged up to the summit of Alto del Perdón, the hill of forgiveness. On top of the windy hill is a sculpture describing the history of the Camino. According to the book, [The Lore of the Camino de Santiago](https://www.amazon.com/Lore-Camino-Santiago-Literary-Pilgrimage/dp/1634133331), by Jean Mitchell-Lanham,
 
@@ -28,7 +28,7 @@ Camino de Santiago started when the Christians from the Middle Ages walked to Sa
 
 Even though I shaved off a lot of weight from my pack, my left knee still hurt. It was still okay for the uphill, but the long rocky downhill was killing me. After we came down the hill, we took a little break, dipping our feet in the cold bath next to the water fountain. I could see the first blister on my pinky.
 
-{{< image classes="fancybox clear fig-75" src="/uploads/img_7628_fotor.jpg" title="Spain has so many of these water fountain that you can sip and dip your feets to cool off." group="1" >}}
+{{< image classes="fancybox clear fig-75" src="/uploads/img_7628_fotor.jpg" title="Spain has so many of these water fountain that you can sip and dip your feet to cool off." group="1" >}}
 
 Finally, we arrived at Obanos, and a local festival was happening. We couldn't pass the cheap beer and the shooting gallery. I shot a rifle for the first time. I wasn’t sure I had hit the target, but the guy gave me a wristband. Sadly, it wasn’t something I would proudly wear.
 
@@ -40,7 +40,7 @@ Late afternoon, we finally arrived at Puente La Reina, the city named after a br
 
 We left the bar to finish the day, and I was pretty drunk. How can you say no to free beers? In Spain, the Sun peaked at around 5 o'clock, and we progressed very slowly. I met Andrew for the first time taking a short break, and when he asked me how I was, I said, “I am pretty drunk.” I walked up the hill to the Albergue, squeezing the last bit of sweat. Since I sent away all my clothes but two, I had to hand wash my clothes as soon as I got out of the shower.
 
-Puente La Reina is a town that existed for thousands of years for pilgrims, and every corner of the town was overflowing with pilgrims. The most annoying thing about Spain, especially in the smaller town, was the dinner started at 7pm. Most restaurants stop serving food around 3pm, and the only available food is some tapas and paella. I opted to eat paella since I wanted to go to bed early, which was not that good. My high bar for Spanish paella was shattered.
+Puente La Reina is a town that existed for thousands of years for pilgrims, and every corner of the town was overflowing with pilgrims. The most annoying thing about Spain, especially in the smaller towns, was that dinner started at 7pm. Most restaurants stop serving food around 3pm, and the only available food is some tapas and paella. I opted to eat paella since I wanted to go to bed early, which was not that good. My high bar for Spanish paella was shattered.
 
 {{< image classes="fancybox clear fig-75" src="/uploads/img_7654_fotor.jpg" title="The bridge, Puente La Reina" group="1" >}}
 
