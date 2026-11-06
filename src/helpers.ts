@@ -4,6 +4,36 @@ import fs from "fs-extra";
 import path from "path";
 import axios from "axios";
 
+const MAX_NOTION_RETRIES = 5;
+const RETRYABLE_STATUSES = new Set([429, 500, 502, 503, 504]);
+
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// Notion's public API rate-limits bursts (~3 req/s); wait for retry-after
+// instead of failing the whole build on a single 429.
+async function fetchWithRetry(
+  url: string,
+  init?: Parameters<typeof fetch>[1],
+): Promise<Response> {
+  for (let attempt = 1; ; attempt++) {
+    const response = await fetch(url, init);
+    if (!RETRYABLE_STATUSES.has(response.status) || attempt >= MAX_NOTION_RETRIES)
+      return response;
+    const retryAfterSeconds = Number(response.headers.get("retry-after")) || 2 ** attempt;
+    console.warn(
+      `[Warn] Notion API returned ${response.status}, retrying in ${retryAfterSeconds}s (attempt ${attempt}/${MAX_NOTION_RETRIES})`,
+    );
+    await sleep(retryAfterSeconds * 1000);
+  }
+}
+
+export function createNotionClient(): Client {
+  return new Client({
+    auth: process.env.NOTION_TOKEN,
+    fetch: fetchWithRetry,
+  });
+}
+
 export function getPageTitle(page: PageObjectResponse): string {
   const title = page.properties.Name ?? page.properties.title;
   if (title.type === "title") {

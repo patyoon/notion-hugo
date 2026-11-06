@@ -1,10 +1,11 @@
-import { Client, isFullPage, iteratePaginatedAPI } from "@notionhq/client";
+import { isFullPage, iteratePaginatedAPI } from "@notionhq/client";
 import { isFullPageOrDatabase } from "@notionhq/client/build/src/helpers";
 import dotenv from "dotenv";
 import fs from "fs-extra";
 import { savePage } from "./render";
 import { loadConfig } from "./config";
 import { getAllContentFiles } from "./file";
+import { createNotionClient } from "./helpers";
 
 dotenv.config();
 
@@ -14,9 +15,7 @@ async function main() {
   const config = await loadConfig();
   console.info("[Info] Config loaded ");
 
-  const notion = new Client({
-    auth: process.env.NOTION_TOKEN,
-  });
+  const notion = createNotionClient();
 
   const page_ids: string[] = [];
 

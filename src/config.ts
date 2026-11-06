@@ -1,4 +1,5 @@
-import { Client, isFullBlock, iteratePaginatedAPI } from "@notionhq/client";
+import { isFullBlock, iteratePaginatedAPI } from "@notionhq/client";
+import { createNotionClient } from "./helpers";
 
 import userDefinedConfig from "../notion-hugo.config";
 
@@ -43,9 +44,7 @@ export async function loadConfig(): Promise<Config> {
     const len = url.pathname.length;
     if (len < 32) throw Error(`[Error] The page_url ${url.href} is invalid`);
     const pageId = url.pathname.slice(len - 32, len);
-    const notion = new Client({
-      auth: process.env.NOTION_TOKEN,
-    });
+    const notion = createNotionClient();
 
     for await (const block of iteratePaginatedAPI(notion.blocks.children.list, {
       block_id: pageId,
