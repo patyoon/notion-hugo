@@ -183,7 +183,7 @@ twitter = "patryoon"
 params = ["categories", "tags"]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 [params.footer]
-copyright = "Patrick Yoon. Built with <a href=\"https://gohugo.io/\">Hugo</a>.<br /><a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />"
+copyright = "Patrick Yoon. All rights reserved. Built with <a href=\"https://gohugo.io/\">Hugo</a>.<br />Use of any content to train, fine-tune, or evaluate AI/ML models, commercial or non-commercial, is prohibited. See <a href=\"/terms/\">Terms of Use</a>."
 [params.sidebar.profile]
 url = "/page/about"
 [permalinks]

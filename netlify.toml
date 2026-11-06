@@ -18,6 +18,9 @@ command = "git lfs install && git lfs pull && git submodule update --force --ini
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
     Permissions-Policy =  "vibrate=(), geolocation=(), midi=(), notifications=(), push=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(), vibrate=(), fullscreen=(), payment=()"
+    # Reserve text and data mining rights (EU DSM Art. 4, TDMRep protocol)
+    tdm-reservation = "1"
+    tdm-policy = "https://patyoon.com/terms/"
 
 [[headers]]
   for = "/css/*"
