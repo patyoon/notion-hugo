@@ -41,4 +41,4 @@ After my first Burn, inspired by this spirit of giving without expecting in retu
 
 {{< image classes="fancybox clear fig-75" group="1" src="/uploads/IMG_3098.jpg" title="With my fellow Rangers after a Burn Perimeter shift in 2023">}}
 
-So, why do people go to Burning Man? It's a nearly impossible question to answer. Some years, the playa gives me exactly what I hoped for. Other years, something I never expected. If you're curious, go see for yourself. And make sure to say "yes" more often than "no." to whatever the playa offers.
+So, why do people go to Burning Man? It's a nearly impossible question to answer. Some years, the playa gives me exactly what I hoped for. Other years, something I never expected. If you're curious, go see for yourself.  Make sure to say "yes" more often than "no" to whatever the playa offer, but also never forget that "no" is always a valid answer, yours and everyone else's.
