@@ -78,12 +78,6 @@ name = "Contact"
 pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/page/contact"
 weight = 4
-[[languages.en-us.menu.main]]
-identifier = "cv"
-name = "CV"
-pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
-url = "/files/cv.pdf"
-weight = 5
 [languages.ko]
 languageName = "한국어"
 title = "윤여호의 블로그"
@@ -131,12 +125,6 @@ name = "블로그"
 pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/post"
 weight = 2
-[[languages.ko.menu.main]]
-identifier = "cv"
-name = "이력"
-pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
-url = "https://patyoon.com/files/cv.pdf"
-weight = 3
 [markup]
 defaultMarkdownHandler = "goldmark"
 [markup.goldmark.renderer]
