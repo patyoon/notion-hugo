@@ -6,7 +6,7 @@ showMeta: false
 clearReading: true
 ---
 
-Ongoing update of what I am up to Now ([what is this for?](https://nownownow.com/about)). My [profile](https://nownownow.com/p/c444) is now on [nownownow.com](https://nownownow.com/).
+An ongoing update of what I am up to now ([what is this for?](https://nownownow.com/about)). My [profile](https://nownownow.com/p/c444) is now on [nownownow.com](https://nownownow.com/).
 
 ***
 
@@ -37,16 +37,16 @@ I have been absent from updating this doc for two years. One of my 2026 prioriti
 
 ### Work
 
-- I am past my first anniversary at WeaveGrid now. It has been a wild ride, jumping between being a full-stack engineer working on dashboards and the driver UI, to improving a complex state machine for charging schedules, data, and reporting. This year, I have focused more on onboarding new vehicle and smart charger OEM partners across time zones, which have fully turned me into a morning person.
-- I am trying to be more intentional about carving out time for things I want to excel at (including writing essays on this blog). This means simplifying my life, so I put a pause on my work as DJ Scrapmetal. Over two years, my two musician friends—[JMARU](https://www.instagram.com/jmarumusic) and [I LIKE TIGERS](https://www.instagram.com/iliketigersofficial)—and I hosted four friends-and-family events, four paid gigs, and played at several house parties and Burning Man fundraisers. It taught me the craft of curating a musical journey for the audience and the intricacies of rallying a crowd and constant marketing efforts. I still don't get the marketing part; it feels unnatural to me, but regardless, our shows were always a sell-out. I sincerely appreciate everyone who came out to support us and danced the nights away.
+- I am past my first anniversary at WeaveGrid now. It has been a wild ride, jumping between being a full-stack engineer working on dashboards and the driver UI, to improving a complex state machine for charging schedules, data, and reporting. This year, I have focused more on onboarding new vehicle and smart charger OEM partners across time zones, which has fully turned me into a morning person.
+- I am trying to be more intentional about carving out time for things I want to excel at (including writing essays on this blog). This means simplifying my life, so I put a pause on my work as DJ Scrapmetal. Over two years, my two musician friends—[JMARU](https://www.instagram.com/jmarumusic) and [I LIKE TIGERS](https://www.instagram.com/iliketigersofficial)—and I hosted four friends-and-family events, four paid gigs, and played at several house parties and Burning Man fundraisers. It taught me the craft of curating a musical journey for the audience and the intricacies of rallying a crowd and sustaining constant marketing efforts. I still don't get the marketing part; it feels unnatural to me, but regardless, our shows always sold out. I sincerely appreciate everyone who came out to support us and danced the nights away.
 
 ### Not Work
 
-- I had a one-month streak of not working out at all in October 2023, which might be the longest stretch since I turned 30. I broke my shoulder bone from a fall, but don't ask me why; I'll only tell you in person. But as soon as the doctor told me I could run again, I ran (and walked) the Golden Gate Bridge half-marathon. Lesson learned: Don't run a half-marathon with no prep. The day after I finished the half, I signed up for the full San Francisco Marathon to make up for this mishap.
-- I hosted an extravagant birthday party in December and invited everyone I made happy memories with and appreciated spending time with in 2023. It was a good excuse to bring people together in the era of remote work and no more holiday parties and wrap up the year and my early 30s on a high note.
+- I had a one-month streak of not working out at all in October 2023, which might be the longest stretch since I turned 30. I broke my shoulder bone in a fall, but don't ask me why; I'll only tell you in person. But as soon as the doctor told me I could run again, I ran (and walked) the Golden Gate Bridge half-marathon. Lesson learned: Don't run a half-marathon with no prep. The day after I finished the half, I signed up for the full San Francisco Marathon to make up for this mishap.
+- I hosted an extravagant birthday party in December and invited everyone I made happy memories with and appreciated spending time with in 2023. It was a good excuse to bring people together in the era of remote work and no more holiday parties, and to wrap up the year and my early 30s on a high note.
 - I brought my family to Spain for the first time over the holidays and New Year's. I shared everything I love about Spain with them (particularly Caldo Gallego and churros), and holiday festivities there welcomed us with charming Mediterranean sun, pretty street lights, jamon, vermouth, and Hala Madrid.
 - On the same trip, I visited my French Camino friends in Toulouse and Lyon. We enjoyed delicious home-cooked meals, shared our post-Camino adventures, and reminisced over photos and memories from the Camino.
-- Ski season was another great year of heavy snowfall, especially towards the end of the season in March and April. Worst memory: getting stuck on I80 and skiing for only one day, spending less time in Tahoe than driving up. Best memories: pulling off a grueling solo drive to Tahoe after seeing James Hype and surprising Bowen on the slopes for his birthday, late-night chatter during après-first/ski-second trips, off-piste day at the Grand Montets, and cold plunge at the Nordic spa in Alyeska.
+- Ski season was another great year of heavy snowfall, especially towards the end of the season in March and April. Worst memory: getting stuck on I-80 and skiing for only one day, spending less time in Tahoe than driving up. Best memories: pulling off a grueling solo drive to Tahoe after seeing James Hype and surprising Bowen on the slopes for his birthday, late-night chatter during après-first/ski-second trips, off-piste day at the Grand Montets, and cold plunge at the Nordic spa in Alyeska.
 
 ***
 
@@ -54,8 +54,8 @@ I have been absent from updating this doc for two years. One of my 2026 prioriti
 
 ### Work
 
-- I have been working on the Managed Charge Team at WeaveGrid, responsible for developing products that optimize EV drivers' charging schedules based on utility rates, real-time signals from wholesale prices, weather for renewable energy, and more. It has been a fun ride learning about issues in the automotive and utility sectors, understanding gaps in today's grid, EV penetration, and the increase of renewable energy. To learn more about the problem we are solving, listen to this [MCJ Podcast](https://www.mcjcollective.com/my-climate-journey-podcast/weavegrid) by our CEO, Apoorv.
-- Organized another club party at the Foundry (dubbed Portola Preparty) and played an hour set mixing garage, drum and bass, with a little spice of dubstep. Joseph, Ayush and I then went on at the end and played tech house b2b2b. The dance floor was almost empty towards the end, but regardless, that last 20 minutes was the most adrenaline-spiking set I have played in a while.
+- I have been working on the Managed Charge Team at WeaveGrid, responsible for developing products that optimize EV drivers' charging schedules based on utility rates, real-time signals from wholesale prices, weather for renewable energy, and more. It has been a fun ride learning about issues in the automotive and utility sectors, understanding gaps in today's grid, EV penetration, and the increase in renewable energy. To learn more about the problem we are solving, listen to this [MCJ Podcast](https://www.mcjcollective.com/my-climate-journey-podcast/weavegrid) by our CEO, Apoorv.
+- Organized another club party at the Foundry (dubbed Portola Preparty) and played an hour-long set mixing garage and drum and bass, with a little spice of dubstep. Joseph, Ayush, and I then went on at the end and played tech house b2b2b. The dance floor was almost empty towards the end, but regardless, those last 20 minutes were the most adrenaline-spiking set I have played in a while.
 
 {{< youtube_shorts "https://www.youtube.com/embed/JCMA4yzH6PU" >}}
 
@@ -67,15 +67,15 @@ I have been absent from updating this doc for two years. One of my 2026 prioriti
 
 {{< youtube_shorts "https://www.youtube.com/embed/HWWMzZ7nB0A" >}}
 
-- After seven years of absence, I finally returned to the playa, the Home, and the Muddy Man. This year, I applied to be a [Black Rock Ranger](https://burningman.org/event/participate/volunteering/teams/brc-rangers/), burners who volunteer their time during the event in the role of non-confrontational community mediators. I went through in-person training at the Burning Man HQ in SF, and passed the alpha shift—a test to determine if you have the qualities of a ranger, worked three six-hour shifts, and served on Burn perimeter, ensuring safety during the Man Burn. I plan to write about this experience in more detail, but in short, I learned a lot about handling nuanced situations non-confrontationally and being able to confidently and concisely make radio calls (taking notes and writing down what you want to say is the key).
+- After seven years of absence, I finally returned to the playa, the Home, and the Muddy Man. This year, I applied to be a [Black Rock Ranger](https://burningman.org/event/participate/volunteering/teams/brc-rangers/), burners who volunteer their time during the event in the role of non-confrontational community mediators. I went through in-person training at the Burning Man HQ in SF, and passed the alpha shift—a test to determine if you have the qualities of a Ranger—worked three six-hour shifts, and served on Burn perimeter, ensuring safety during the Man Burn. I plan to write about this experience in more detail, but in short, I learned a lot about handling nuanced situations non-confrontationally and being able to confidently and concisely make radio calls (taking notes and writing down what you want to say is the key).
 
 {{< image classes="fancybox clear fig-75" src="/uploads/burn_perimeter.JPG" title="Burn Perimeter Quad 1" group="2">}}
 
-- I finally brought my best friends, whom I have been raving to about Burning Man for years, to the Black Rock City. We made many beautiful memories over Swedish meatballs, TJ galbi, speakeasy bars, foamy showers, and more.
+- I finally brought my best friends, whom I have been raving to about Burning Man for years, to Black Rock City. We made many beautiful memories over Swedish meatballs, TJ galbi, speakeasy bars, foamy showers, and more.
 {{< image classes="fancybox clear fig-75" src="/uploads/IMG_9601 2.JPG" group="2">}}
 {{< image classes="fancybox clear fig-75" src="/uploads/IMG_2406 Large.jpeg" group="2">}}
 
-- I joined the running club in SF founded by my friend Nate and started running in August. I had been avoiding running with all the excuses I made about my bad knees and slow pace, but so far have been enjoying it with no issues. It is still the hardest workout in terms of BPM, but I have been getting the hang of it and ran my first 10k in the San Jose Rock-And-Roll.
+- I joined the running club in SF founded by my friend Nate and started running in August. I had been avoiding running with all the excuses I made about my bad knees and slow pace, but so far have been enjoying it with no issues. It is still the hardest workout in terms of BPM, but I have been getting the hang of it and ran my first 10k at the San Jose Rock-And-Roll.
 
 ***
 
@@ -89,11 +89,11 @@ I have been absent from updating this doc for two years. One of my 2026 prioriti
 
 - The 2022 holidays were spent in Seoul, marking a reunion with family and attending three weddings. This trip was filled with some highlights: reuniting with relatives I hadn't seen since leaving Korea, experiencing Korean makeup at my brother's wedding, enjoying PSY's overnight all-standing concert, and skiing in Yongpyong—where the mountain food was unparalleled.
 - A subsequent trip in late March took me back to Seoul and to Kyoto, where I was captivated by the romantic vistas of cherry blossoms blooming across both Korea and Japan.
-- I skipped getting a ski season pass for the first time in six years to make time to do other stuff. The missing ski leg hit me hard at the WeaveGrid ski trip as everyone on the trip was both fantastic and intense skiers. The level of ski talent at this company is higher than anywhere I have seen.
+- I skipped getting a ski season pass for the first time in six years to make time to do other stuff. The missing ski leg hit me hard on the WeaveGrid ski trip, as everyone on the trip was a fantastic and intense skier. The level of ski talent at this company is higher than anywhere I have seen.
 
 ### Creative
 
-- Although starting a new job has taken up most of my time, I've managed to showcase my DJ sets at three different venues: [The Foundry](https://www.thefoundrysf.com/ "The Foundry"), [Le Petit Paris](https://lppsf.com/ "Le Petit Paris"), and a Burning Man camp fundraiser. With other crews playing the genre of melodic house and techno, I try to blend in a more funky and soulful sound and even some remix of top 40 songs to add some variety. You can listen to my sets on [SoundCloud](https://soundcloud.com/djscrapmetal).
+- Although starting a new job has taken up most of my time, I've managed to showcase my DJ sets at three different venues: [The Foundry](https://www.thefoundrysf.com/ "The Foundry"), [Le Petit Paris](https://lppsf.com/ "Le Petit Paris"), and a Burning Man camp fundraiser. With other crews playing the genre of melodic house and techno, I try to blend in a more funky and soulful sound and even some remixes of Top 40 songs to add some variety. You can listen to my sets on [SoundCloud](https://soundcloud.com/djscrapmetal).
 - The set we played at Sutro Baths was unreal and "This Never Happened."
 
 ***
@@ -113,7 +113,7 @@ I have been absent from updating this doc for two years. One of my 2026 prioriti
 - April: Visited the eastern part of Canada, Toronto, and Montreal.
 - May - June: Walked the entire [Camino Frances of Camino de Santiago](/tags/camino-de-santiago/).
 {{< image classes="fancybox clear fig-75" src="/uploads/IMG_9987.jpeg" group="3">}}
-- May - July: Also visited the UK, Morocco, Germany, Austria, Belgium, Italy, and Portugal as part of the three-month backpacking trip.
+- May - July: Also visited the UK, Morocco, Germany, Austria, Belgium, Italy, and Portugal as part of a three-month backpacking trip.
 - August - September: South Korea to attend two weddings and visit family and friends.
 
 ### Side projects
@@ -141,5 +141,5 @@ I have been absent from updating this doc for two years. One of my 2026 prioriti
 ### Personal
 
 - This year, my goal is to build a pathway toward retirement and develop a career narrative for the next twenty years. In addition, I would like to create a long-term plan to be at the peak of my career 20 years later and retire with good health and a financial cushion.
-- I started Pilates in October, which has been my go-to exercise. As a result, I have benefited immensely from my core strength, balance, and posture. This year, I aim to complete my first triathlon and do ten consecutive pull-ups.
-- This is the first year I set up a goal of reading 50 books, and I am at two now.
+- I started Pilates in October, which has been my go-to exercise. As a result, my core strength, balance, and posture have benefited immensely. This year, I aim to complete my first triathlon and do ten consecutive pull-ups.
+- This is the first year I have set a goal of reading 50 books, and I am at two now.

@@ -18,9 +18,9 @@ private: true
 
 https://e360.yale.edu/features/putting-solar-panels-atop-parking-lots-a-green-energy-solution
 
-Why build solar farm on top of parking lots and buildings?
+Why build solar farms on top of parking lots and buildings?
 
-It can cost anywhere from two to five times as much as on open space. Payback time of 10 or 12 years. But still can provide greater than 4% return on PPA aggrement.
-Fossil fuel lobbyist have been discouraging government policies that would encourage rooftop solar and parking lot solar.
+It can cost anywhere from two to five times as much as on open space. Payback time of 10 or 12 years. But it can still provide a greater than 4% return on a PPA agreement.
+Fossil fuel lobbyists have been discouraging government policies that would encourage rooftop solar and parking lot solar.
 
 Use for excess energy.

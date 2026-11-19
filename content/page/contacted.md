@@ -11,6 +11,6 @@ showActions: false
 ---
 {{< figure src="/uploads/unnamed.gif" >}}
 
-Yay! You contacted successfully! I will respond within 24 hours.
+Yay! Your message was sent successfully! I will respond within 24 hours.
 
 In the meantime, go [read some blog posts](/post).
