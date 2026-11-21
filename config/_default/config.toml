@@ -73,11 +73,17 @@ pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\">
 url = "/post"
 weight = 3
 [[languages.en-us.menu.main]]
+identifier = "archives"
+name = "Archives"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
+url = "/archives"
+weight = 4
+[[languages.en-us.menu.main]]
 identifier = "contact"
 name = "Contact"
 pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/page/contact"
-weight = 4
+weight = 5
 [languages.ko]
 languageName = "한국어"
 title = "윤여호의 블로그"
@@ -125,6 +131,12 @@ name = "블로그"
 pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
 url = "/post"
 weight = 2
+[[languages.ko.menu.main]]
+identifier = "archives"
+name = "지난 글"
+pre = "<i class=\"sidebar-button-icon fas fa-angle-right\" aria-hidden=\"true\"></i>"
+url = "/archives"
+weight = 3
 [markup]
 defaultMarkdownHandler = "goldmark"
 [markup.goldmark.renderer]
@@ -164,6 +176,12 @@ twitter = "patryoon"
   # ---------------
   # Sharing options disabled
 
+[params.analytics]
+# Privacy-friendly, cookie-free analytics. Leave both empty to load nothing.
+# goatcounter: the subdomain of your GoatCounter site, e.g. "patyoon" for patyoon.goatcounter.com
+# plausible: the domain registered in Plausible, e.g. "patyoon.com"
+goatcounter = ""
+plausible = ""
 [params.algolia]
 # Algolia credentials are set via Netlify environment variables:
 # HUGO_PARAMS_ALGOLIA_APPID, HUGO_PARAMS_ALGOLIA_APIKEY, HUGO_PARAMS_ALGOLIA_INDEXNAME
@@ -177,7 +195,9 @@ url = "/page/about"
 [permalinks]
 post = "/:year/:month/:slug/"
 [taxonomies]
+archive = "archives"
 category = "categories"
+series = "series"
 tag = "tags"
 
 [related]

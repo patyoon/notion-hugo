@@ -7,6 +7,7 @@ coverImage = "/uploads/img_4288_fotor.jpg"
 date = 2022-10-07T07:00:00Z
 private = false
 tags = ["camino de santiago"]
+series = ["Camino de Santiago"]
 title = "Day 4: Pamplona to Puente La Reina 24km"
 
 +++

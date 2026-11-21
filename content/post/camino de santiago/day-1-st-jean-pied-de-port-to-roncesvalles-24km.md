@@ -7,6 +7,7 @@ coverImage = "/uploads/img_7412_fotor.jpg"
 date = 2022-08-28T07:00:00Z
 private = false
 tags = ["camino de santiago"]
+series = ["Camino de Santiago"]
 title = "Day 1: St Jean Pied de Port to Roncesvalles 24km"
 
 +++

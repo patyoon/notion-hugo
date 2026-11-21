@@ -7,6 +7,7 @@ draft = false
 coverImage = "/uploads/IMG_7673.jpg"
 coverCaption = "Paradise Loading..."
 tags = ["camino de santiago"]
+series = ["Camino de Santiago"]
 categories = ["travel", "life"]
 autoThumbnailImage = true
 comments = true

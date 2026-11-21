@@ -7,6 +7,7 @@ draft = true
 coverImage = "/uploads/IMG_7755.jpg"
 coverCaption = "red, green, and blue"
 tags = ["camino de santiago"]
+series = ["Camino de Santiago"]
 categories = ["travel", "life"]
 autoThumbnailImage = true
 comments = true

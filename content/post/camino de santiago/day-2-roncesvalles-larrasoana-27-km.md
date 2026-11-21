@@ -7,6 +7,7 @@ coverImage = "/uploads/jpeg-image-ea5bc36110c8-1.jpeg"
 date = 2022-08-30T15:00:00Z
 private = false
 tags = ["camino de santiago"]
+series = ["Camino de Santiago"]
 title = "Day 2: Roncesvalles - Larrasoaña 27 km"
 
 +++

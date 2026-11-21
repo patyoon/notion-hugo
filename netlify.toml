@@ -13,8 +13,9 @@ command = "git lfs install && git lfs pull && git submodule update --force --ini
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = ""
-    Content-Security-Policy-Report-Only = "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://patyoon.report-uri.com/r/d/csp/wizard"
+    # Enforced CSP. 'unsafe-inline' is required by the theme's inline scripts and styles
+    # (sidebar sizing, Disqus and Algolia bootstrap, Hugo TOC, inline style attributes in posts).
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; manifest-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://*.disqus.com https://*.disquscdn.com https://*.algolia.net https://*.algolianet.com https://gc.zgo.at https://plausible.io; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://*.disquscdn.com; font-src 'self' data: https://cdnjs.cloudflare.com https://fonts.gstatic.com https://*.disquscdn.com; img-src 'self' data: blob: https:; media-src 'self' https:; frame-src https://disqus.com https://*.disqus.com https://www.youtube.com https://www.youtube-nocookie.com https://www.facebook.com https://web.facebook.com https://player.vimeo.com https://w.soundcloud.com; connect-src 'self' https://*.algolia.net https://*.algolianet.com https://*.disqus.com https://*.disquscdn.com https://*.goatcounter.com https://plausible.io https://patyoon.report-uri.com; report-uri https://patyoon.report-uri.com/r/d/csp/enforce; upgrade-insecure-requests"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
     Permissions-Policy =  "vibrate=(), geolocation=(), midi=(), notifications=(), push=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(), vibrate=(), fullscreen=(), payment=()"

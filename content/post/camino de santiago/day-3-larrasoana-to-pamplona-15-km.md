@@ -7,6 +7,7 @@ coverImage = "/uploads/snapseed-1-_fotor.jpg"
 date = 2022-08-31T15:00:00Z
 private = false
 tags = ["camino de santiago"]
+series = ["Camino de Santiago"]
 title = "Day 3: Larrasoana to Pamplona: 15 km"
 
 +++
